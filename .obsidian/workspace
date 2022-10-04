@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d9311bf3580072ad",
+        "id": "8b2a17662e846be6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
+            "file": "Swag-Appunti/Senza nome.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Swag-Appunti/Senza nome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Swag-Appunti/Senza nome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Swag-Appunti/Senza nome.md"
               }
             }
           },
@@ -138,8 +138,12 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "d9311bf3580072ad",
+  "active": "8b2a17662e846be6",
   "lastOpenFiles": [
-    "Untitled.md"
+    "Untitled.md",
+    "Swag-Appunti/Senza nome.md",
+    "Swag-Appunti/Prova/Senza nomeaaaaa.md",
+    "Appunti 22-23/Senza nome.md",
+    "Swag-Appunti/Swag-Appunti/Senza nome.md"
   ]
 }
