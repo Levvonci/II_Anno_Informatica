@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "d1bcd856564904b1",
+        "id": "0b4b41a31a492087",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Secondo anno/Linguaggi e metodologie/Teoria.md",
-            "mode": "source",
+            "file": "Secondo anno/Statistica/Capitolo 2.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secondo anno/Linguaggi e metodologie/Teoria.md",
+                "file": "Secondo anno/Statistica/Capitolo 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secondo anno/Linguaggi e metodologie/Teoria.md",
+                "file": "Secondo anno/Statistica/Capitolo 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secondo anno/Linguaggi e metodologie/Teoria.md"
+                "file": "Secondo anno/Statistica/Capitolo 2.md"
               }
             }
           },
@@ -146,13 +146,14 @@
     "direction": "horizontal",
     "width": 335.5
   },
-  "active": "265a8a287f2cb2fa",
+  "active": "0b4b41a31a492087",
   "lastOpenFiles": [
-    "Secondo anno/Linguaggi e metodologie/Teoria.md",
-    "Secondo anno/Statistica/Teoria.md",
-    "Secondo anno/Fondamenti/Teoria.md",
+    "Secondo anno/Statistica/Capitolo 2.md",
+    "Untitled.md",
     "Secondo anno/Basi di dati/Teoria.md",
     "Secondo anno/Algoritmi/Teoria.md",
+    "Secondo anno/Linguaggi e metodologie/Teoria.md",
+    "Secondo anno/Fondamenti/Teoria.md",
     "Swag-Appunti/Prova/Senza nomeaaaaa.md",
     "Swag-Appunti/Senza nome.md",
     "Appunti 22-23/Senza nome.md",
