@@ -7,8 +7,12 @@
         "id": "8b2a17662e846be6",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Linguaggi e metodologie/Prova.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Linguaggi e metodologie/Prova.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Linguaggi e metodologie/Prova.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Linguaggi e metodologie/Prova.md"
+              }
             }
           },
           {
@@ -130,9 +138,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "265a8a287f2cb2fa",
+  "active": "8b2a17662e846be6",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Linguaggi e metodologie/Prova.md",
     "Swag-Appunti/Prova/Senza nomeaaaaa.md",
     "Swag-Appunti/Senza nome.md",
     "Appunti 22-23/Senza nome.md",
