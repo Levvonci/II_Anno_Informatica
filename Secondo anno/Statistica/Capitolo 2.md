@@ -30,9 +30,23 @@
 >- ***Prodotto logico***$$A\land B \longleftrightarrow A\cap B$$
 >- ***Negazione*** $$\overline{A} \longleftrightarrow A^C = \Omega \setminus A$$
 
-### ***$\sigma$ Algebra
-#### Def
->***Sia $\Omega$ un insieme non vuoto e sia $A\subset\mathcal{P}(\Omega)$ 
->***Allora A è una $\sigma$ Algebra se:
-> i) $\Omega\in A$ 
-> 	ii)
+### ***$\sigma$ Algebra***
+>***Sia $\Omega$ un insieme non vuoto e sia $A\subset\mathcal{P}(\Omega)$***
+>***Allora A è una $\sigma$ Algebra se:***
+> i) ***$\Omega\in A$***
+> 	ii) ***$\forall A \in A \implies A^C \in A$*** 
+> 		iii) ***$\forall\{A_n\}_{n\geq1}\subset A \implies\bigcup_{n\geq1} A_n \in A$***  
+
+### ***Misura di Probabilità***
+>***Sia Ω un insieme non vuoto e A una σ-algebra di eventi.
+>***Una funzione $P:A\implies [0,\infty)$  è una misura di probabilità se:
+>- $\mathcal{P}(\Omega) =1$  
+>- $\forall {A_{n} }_{n \geqslant 1} \subset \mathcal{A}$ t.c. $A_{m}\cap A_{n}: \forall : m\neq n$ si ha  $P(\bigcup_{n\geq1} A_n)= \sum_{n\geq 1} P(An)$
+
+### ***Conseguenze della misura di Probabilità
+
+
+
+
+
+
