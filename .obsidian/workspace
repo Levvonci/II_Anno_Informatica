@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Statistica/Teoria.md",
+            "file": "Linguaggi e metodologie/Teoria.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistica/Teoria.md",
+                "file": "Linguaggi e metodologie/Teoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistica/Teoria.md",
+                "file": "Linguaggi e metodologie/Teoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistica/Teoria.md"
+                "file": "Linguaggi e metodologie/Teoria.md"
               }
             }
           },
@@ -130,6 +130,14 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "d70a502a76f6a663",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
@@ -140,10 +148,10 @@
   },
   "active": "8b2a17662e846be6",
   "lastOpenFiles": [
+    "Statistica/Teoria.md",
     "Fondamenti/Teoria.md",
     "Basi di dati/Teoria.md",
     "Algoritmi/Teoria.md",
-    "Statistica/Teoria.md",
     "Linguaggi e metodologie/Teoria.md",
     "Swag-Appunti/Prova/Senza nomeaaaaa.md",
     "Swag-Appunti/Senza nome.md",
