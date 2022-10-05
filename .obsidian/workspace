@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linguaggi e metodologie/Prova.md",
+            "file": "Statistica/Teoria.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linguaggi e metodologie/Prova.md",
+                "file": "Statistica/Teoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linguaggi e metodologie/Prova.md",
+                "file": "Statistica/Teoria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linguaggi e metodologie/Prova.md"
+                "file": "Statistica/Teoria.md"
               }
             }
           },
@@ -140,7 +140,11 @@
   },
   "active": "8b2a17662e846be6",
   "lastOpenFiles": [
-    "Linguaggi e metodologie/Prova.md",
+    "Fondamenti/Teoria.md",
+    "Basi di dati/Teoria.md",
+    "Algoritmi/Teoria.md",
+    "Statistica/Teoria.md",
+    "Linguaggi e metodologie/Teoria.md",
     "Swag-Appunti/Prova/Senza nomeaaaaa.md",
     "Swag-Appunti/Senza nome.md",
     "Appunti 22-23/Senza nome.md",
