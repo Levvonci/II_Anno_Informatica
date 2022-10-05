@@ -29,3 +29,10 @@
 >- ***Somma logica***  $$A\lor B\longleftrightarrow A\cup B$$ 
 >- ***Prodotto logico***$$A\land B \longleftrightarrow A\cap B$$
 >- ***Negazione*** $$\overline{A} \longleftrightarrow A^C = \Omega \setminus A$$
+
+### ***$\sigma$ Algebra
+#### Def
+>***Sia $\Omega$ un insieme non vuoto e sia $A\subset\mathcal{P}(\Omega)$ 
+>***Allora A è una $\sigma$ Algebra se:
+> i) $\Omega\in A$ 
+> 	ii)
