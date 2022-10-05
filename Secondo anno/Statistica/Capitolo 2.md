@@ -21,7 +21,7 @@
 > ***Sottinsieme di $\Omega$***
 > ***Tornando agli esempi:***
 > - ***"esce un numero pari" $\iff$ $\set{2,4,6}$*** 
-> - ***"il centralino riceve al più 2 telefonate" $\iff$ $\set {0,1,2}$  $\subset$  $\set{0,1,2,....}$***
+> - ***"il centralino riceve al più 2 telefonate"***$\iff$ ***$\set {0,1,2}$  $\subset$  $\set{0,1,2,....}$***
 > - ***"la lampadina si fulmina dopo il tempo t=5" $\iff$ (5, $\infty$ ) $\subset$ (0, $\infty$ ).***
 
 ### ***Corrispondenza tra operazioni logiche e operazioni insiemistiche***
