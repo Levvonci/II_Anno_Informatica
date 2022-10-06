@@ -1,42 +1,118 @@
-### ***I numeri di Fibonacci*** 
+## ***I numeri di Fibonacci*** 
 >***Quanto velocemente si espanderebbe una popolazione di conigli sotto appropriate condizioni?***
 >- ***Una coppia di coniglietti genera una nuova coppia***
 >- ***La gestazione dura un anno***
 >- ***I conigli si riproducono solo dopo il secondo anno***
 >- ***I conigli sono immortali***
 
+### ***L'albero dei conigli***
+>***La riproduzione dei conigli può essere descritta in un albero:*** 
+![[Pasted image 20221006114921.png]]
+
 ### ***La regola di espansione***
->- ***Nell'anno n ci sono tutte le coppie dell'anno precedente fn-1***
+>- ***Nell'anno n ci sono tutte le coppie dell'anno precedente $Fn-1$***
 >- ***Indicando con fn il numero di copie dell'anno n abbaimo la seguente relazione di ricorrenza:***
-
-
+>$$Fn= \begin{cases}
+F_{n-1}+F_{n-2}&se\ \ n\geq3\\
+1& se\ \ n=1,2
+\end{cases}$$
 
 ### ***Come calcoliamo Fn?***
 #### ***Approccio Numerico***
->***Funzione matematica che clcola direttamente i numeri di Fibonacci***
->Algoritmo Fibonacci1(intero n) $\implies$ intero
->	return 1/sqrt 5 (......)
->Rivedere slide pag 9
+>-***Funzione matematica che calcola direttamente i numeri di Fibonacci***
+>-***Si può dimostrare che: 
+>$$Fn=\frac{1}{\sqrt5}\cdot(\phi^n - \hat{\phi}^n)$$
+>Dove:
+>$$ \begin{cases}
+\phi=\frac {1+\sqrt5}{2} \approx +1.618\\
+\phi=\frac {1-\sqrt5}{2} \approx -0.618
+\end{cases}$$
+
+### ***Algoritmo Fibonacci1***
+>Algoritmo***Fibonacci1***$(intero\ n)\implies intero$
+> 1. ***$return \frac{1}{\sqrt5}\cdot(\phi^n - \hat{\phi}^n)$***
+#### ***Correttezza?***
+>-***Qual è l'accuratezza su $\phi \ e \ \hat{\phi}$ per ottenere un risultato corretto?***
+>-***Ad esempio,con 3 cifre decimali:***
+>$\phi\approx 1.618 \ e \ \hat{\phi}\approx -0.618$ 
 
 
 ### ***Algoritmo Fibonacci2***
 >***Utilizzare direttamente la definizione ricorsiva***
->***algoritmoFibonacci2(intero n)$\implies$ intero***
->		***if(n$\geq$ 2)then return 1***
->		***else return Fibonacci2(n-1) + Fibonacci2(n-2)***
+>***$Algoritmo$ Fibonacci2$(intero\ n)\implies intero$***
+> 1. ***$if (n\geq 2) then\ return 1$***
+> 2. ***$else return$ Fibonacci2$(n-1)$ + Fibonacci2$(n-2)$***
 
 #### ***Tempo di esecuzione***
->- ***Un modello di calcolo rudimentale: ogni linea di codice costa un'unità di tempo
->- ***Calcoliamo il numero di linee di codice mandate in esecuzione 
->	-
+>- ***Un modello di calcolo rudimentale: ogni linea di codice costa un'unità di tempo***
+>- ***Calcoliamo il numero di linee di codice mandate in esecuzione***
+>   -Misura indipendente dalla piattaforma utilizzata
+>- ***Se n $\le$ 2: una sola riga di codice 
+>- Se n = 3: quattro linee di codice, due per la chiamata $fibonacci2(3)$, una per la chiamata $fibonacci2(2)$ e una per la chiamata $fibonacci2(1)$
 
-#### ***Relazione di ricorrenza 
-> T(n)= #linee di codice eseguite
+#### ***Relazione di ricorrenza***
+> ***T(n)= # linee di codice eseguite (nel caso peggiore)dall'algoritmo su input n
 > In ogni chiamata si eseguono due linee di codice oltre a quelle eseguite nelle chiamate ricorsive 
-> T(n)=2+T(n-1)+T(n-2) 
+> $T(n)=2+T(n-1)+T(n-2)$ 
+> in generale, il tempo richiesto da un algoritmo ricorsivo è pari al tempo speso all'interno della chiamata più il tempo speso nelle chiamate ricorsive 
 
 #### ***Albero della ricorsione***
 >- ***Utile per risolvere la relazione di ricorrenza***
 >- ***Nodi corrispondenti alle chiamate ricorsive***
 >- ***Figli di un nodo corrispondenti alle sottochiamate***
+>![[Pasted image 20221006140343.png]]
+
+#### ***Calcolare $T(n)$***
+>***- Etichettando i nodi dell'albero con il numero di linee di codice eseguite nella chiamata corrispondente:***
+>  ***- I nodi interni hanno etichetta 2*** 
+>  ***- Le foglie hanno etichetta 1***
+>***- Per calcolare $T(n)$:***
+>  ***-Continuiamo con il numero di foglie***
+>  -***Continuiamo il numero di nodi interni***
+
+##### ***Lemma 1***
+>***Il numero di foglie dell'albero della ricorsione di $Fibonacci2(n)$ è pari a $F_n$
+
+##### ***Dimostrazione***
+>***(Per induzione su n)***
+
+##### ***Lemma 2***
+>***Il numero di nodi interni di un albero in cui ogni nodo interno ha due figli è pari al numero di foglie -1***
+
+##### ***Dimostrazione***
+>***(Per induzione sul numero di nodi dell'albero $n$)
+
+>***In totale le linee di codice eseguite sono:
+>$F_{n}+2 \cdot(F_{n}-1)=3F_{n}-2$
+
+##### ***Osservazioni***
+>***$Fibonacci2$ è un algoritmo lento:***
+>$T(n) \approx F_n \approx \phi^n$
+>***Linee di codice eseguite***
+>***$n=45 \ \ T(n)=3\cdot F_{45}-2 = 3\cdot 1.134903.170-2=3.404.709.508$ 
+>Possiamo fare meglio? 
+>![[Pasted image 20221006144318.png]]
+>![[Pasted image 20221006144415.png]]
+
+### ***Algoritmo Fibonacci3***
+>***Perchè l'algoritmo $Fibonacci2$ è lento? Perchè continua a ricalcolare ripetutamente la soluzione dello stesso sottoproblema. Perchè non memorizzare allora in un array le soluzioni dei sottoproblemi?***
+>
+>Algoritmo***Fibonacci3******$(intero \ n )\implies intero$***
+> ***|sia Fib un array di n interi|
+> |Fib[1]$\leftarrow$Fib[2]$\leftarrow$ 1|***
+> 1.$for$ ***i=3 $to$ n $do$***
+>          ***|Fib[i]$\leftarrow$Fib[i-l]+Fib[i-2]|***
+> 2.$return$ ***Fib[n]
+
+#### ***Calcolo del tempo di esecuzione***
+> - ***Linee 1,2 e 5 eseguite una sola volta 
+> - Linea 3 eseguita $\leq$ n volte
+> - Linea 4 eseguita $\leq$ n volte 
+> - $T(n)$: numero di linee di codice mandate in esecuzione da Fibonacci3
+> $T(n)\leq n + n + 3 = 2n + 3$ 
+> $T(45)\leq 93$
+>(38 milione di volte più dell'algoritmo $Fibonacci2$!)
+>- L'algoritmo $Fibonacci3$ impiega tempo proporzionale a n invece di esponenziale in n come Fibonacci2
+>- Tempo effettivo richiesto da implementazioni in C dei due algoritmi su piattaforme obsolete:
+>![[Pasted image 20221006164740.png]]
 >
