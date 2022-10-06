@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Secondo anno/Statistica/Capitolo 2.md",
+            "file": "Secondo anno/CPS/Capitolo 2.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secondo anno/Statistica/Capitolo 2.md",
+                "file": "Secondo anno/CPS/Capitolo 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secondo anno/Statistica/Capitolo 2.md",
+                "file": "Secondo anno/CPS/Capitolo 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secondo anno/Statistica/Capitolo 2.md"
+                "file": "Secondo anno/CPS/Capitolo 2.md"
               }
             }
           },
@@ -148,12 +148,12 @@
   },
   "active": "0b4b41a31a492087",
   "lastOpenFiles": [
-    "Secondo anno/Statistica/Capitolo 2.md",
+    "Secondo anno/CPS/Capitolo 2.md",
     "Untitled.md",
-    "Secondo anno/Basi di dati/Teoria.md",
-    "Secondo anno/Algoritmi/Teoria.md",
-    "Secondo anno/Linguaggi e metodologie/Teoria.md",
-    "Secondo anno/Fondamenti/Teoria.md",
+    "Secondo anno/BDC/Teoria.md",
+    "Secondo anno/ASD/Teoria.md",
+    "Secondo anno/LMP/Teoria.md",
+    "Secondo anno/FI/Teoria.md",
     "Swag-Appunti/Prova/Senza nomeaaaaa.md",
     "Swag-Appunti/Senza nome.md",
     "Appunti 22-23/Senza nome.md",
