@@ -45,6 +45,8 @@
 
 ### ***Conseguenze della misura di Probabilità
 
+>***$P(\varnothing)=0$
+>Se si considera $An=\varnothing$  $\forall \geq1$
 
 
 
