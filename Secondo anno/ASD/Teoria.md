@@ -125,13 +125,24 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 ### ***Algoritmo Fibonacci4***
 >Algoritmo***Fibonacci4***$(intero \ n)\implies intero$
 >     ***|a$\leftarrow$b$\leftarrow$ 1|***
->     $for$ i=3 $to$ n $do$
+>    1. $for$ i=3 $to$ n $do$
 >       ***c $\leftarrow$ a+b***
 >       ***b $\leftarrow$ a***
 >       ***a $\leftarrow$ c***
->     $return$ a
+>    2. $return$ a
 >-***Fibonacci3 usa un array di dimensione n prefissata***
->-***In realtà non ci serve mantenere tutti i valori di $F_n$ precedenti, ma solo gli ultimi due, riducendo lo spazio a poche variabili in tutto***
->
+>-***In realtà non ci serve mantenere tutti i valori di $F_n$ precedenti, ma solo gli ultimi 
+   due, riducendo lo spazio a poche variabili in tutto***
+
+#### ***Algoritmo Fibonacci 5
+>Algoritmo***Fibonacci5***$(intero \ n)\implies intero$
 > 
->   
+>     $for$ i=1 $to$ n-1 $do$
+>     
+>     $return$ M [0], [0]
+>
+>- ***Il tempo di esecuzione è ancora O(n)***
+>- ***Cosa si guadagna?***
+
+ 
+
