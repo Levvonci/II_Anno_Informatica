@@ -116,3 +116,10 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 >- Tempo effettivo richiesto da implementazioni in C dei due algoritmi su piattaforme obsolete:
 >![[Pasted image 20221006164740.png]]
 >
+
+#### ***Occupazione di memoria***
+> -***Il tempo di esecuzione non è la sola risorsa di calcolo che ci interessa. Anche la quantità di memoria necessaria può essere cruciale.***
+>-***Se abbiamo un algoritmo lento, dovremo solo attendere più a lungo per ottenere il risultato***
+>-***Ma se un algoritmo richiede più spazio di quello a disposizione, non otterremo mai la soluzione, indipendentemente da quanto attendiamo!***
+
+### ***Algoritmo Fibonacci4***

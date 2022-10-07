@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "0b4b41a31a492087",
+        "id": "c07ec1f1d8e2a863",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -57,13 +57,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 252.50482177734375,
-    "collapsed": true
+    "width": 252.50482177734375
   },
   "right": {
     "id": "c60a4101ff42dc07",
@@ -148,12 +146,12 @@
     "direction": "horizontal",
     "width": 389.126708984375
   },
-  "active": "0b4b41a31a492087",
+  "active": "c07ec1f1d8e2a863",
   "lastOpenFiles": [
+    "Secondo anno/CPS/Capitolo 2.md",
     "Secondo anno/LMP/Teoria.md",
     "Secondo anno/ASD/Teoria.md",
     "Secondo anno/BDC/Teoria.md",
-    "Secondo anno/CPS/Capitolo 2.md",
     "Untitled.md",
     "Secondo anno/FI/Teoria.md",
     "Swag-Appunti/Prova/Senza nomeaaaaa.md",
