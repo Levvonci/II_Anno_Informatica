@@ -123,3 +123,15 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 >-***Ma se un algoritmo richiede più spazio di quello a disposizione, non otterremo mai la soluzione, indipendentemente da quanto attendiamo!***
 
 ### ***Algoritmo Fibonacci4***
+>Algoritmo***Fibonacci4***$(intero \ n)\implies intero$
+>     ***|a$\leftarrow$b$\leftarrow$ 1|***
+>     $for$ i=3 $to$ n $do$
+>       ***c $\leftarrow$ a+b***
+>       ***b $\leftarrow$ a***
+>       ***a $\leftarrow$ c***
+>     $return$ a
+>-***Fibonacci3 usa un array di dimensione n prefissata***
+>-***In realtà non ci serve mantenere tutti i valori di $F_n$ precedenti, ma solo gli ultimi due, riducendo lo spazio a poche variabili in tutto***
+>
+> 
+>   
