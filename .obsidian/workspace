@@ -7,8 +7,12 @@
         "id": "c07ec1f1d8e2a863",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Secondo anno/ASD/AlgoritmiFibonacci.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Secondo anno/ASD/AlgoritmiFibonacci.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Secondo anno/ASD/AlgoritmiFibonacci.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +116,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Secondo anno/ASD/AlgoritmiFibonacci.md"
+              }
             }
           },
           {
@@ -138,8 +146,9 @@
     "direction": "horizontal",
     "width": 389.126708984375
   },
-  "active": "265a8a287f2cb2fa",
+  "active": "c07ec1f1d8e2a863",
   "lastOpenFiles": [
+    "Secondo anno/BDC/Teoria.md",
     "Secondo anno/ASD/Pasted image 20221006114921.png",
     "Secondo anno/ASD/AlgoritmiFibonacci.md",
     "Untitled.md",
@@ -148,7 +157,6 @@
     "Swag-Appunti/Prova/Senza nomeaaaaa.md",
     "Swag-Appunti/Senza nome.md",
     "Secondo anno/LMP/Teoria.md",
-    "Secondo anno/FI/Teoria.md",
-    "Secondo anno/CPS/Capitolo 2.md"
+    "Secondo anno/FI/Teoria.md"
   ]
 }
