@@ -154,4 +154,5 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 
 ### ***Algoritmo Fibonacci 6***
 >***Algoritmo***Fibonacci6$(intero \ n )\implies intero$
+>       
 >
