@@ -134,7 +134,7 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 >-***In realtà non ci serve mantenere tutti i valori di $F_n$ precedenti, ma solo gli ultimi 
    due, riducendo lo spazio a poche variabili in tutto***
 
-#### ***Algoritmo Fibonacci 5
+#### ***Algoritmo Fibonacci 5***
 >Algoritmo***Fibonacci5***$(intero \ n)\implies intero$
 > 
 >     $for$ i=1 $to$ n-1 $do$
@@ -142,7 +142,16 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 >     $return$ M [0], [0]
 >
 >- ***Il tempo di esecuzione è ancora O(n)***
->- ***Cosa si guadagna?***
 
- 
+#### ***Cosa si guadagna?***
+>- ***Si può calcolare la n-esima potenza elevando al quadrato la ($\lfloor$$\frac {n}{2}\rfloor$)-esima potenza***
+>- ***Se n è dispari eseguiamo un'ulteriore moltiplicazione***
 
+#### ***Esempio***
+>$3^2=9$            $3^4=9^2=81$            $3^8=81^2=6561$ $\implies$
+>$\implies$ ***Si eseguono solo 3 prodotti invece di 7***
+>         3 $\cdot$ 3 $\cdot$ 3 $\cdot$ 3 $\cdot$ 3 $\cdot$ 3 $\cdot$ 3 = $3^8$
+
+### ***Algoritmo Fibonacci 6***
+>***Algoritmo***Fibonacci6$(intero \ n )\implies intero$
+>
