@@ -1,5 +1,5 @@
 ## ***I numeri di Fibonacci*** 
->***Quanto velocemente si espanderebbe una popolazione di conigli sotto appropriate condizioni?***
+#### ***Quanto velocemente si espanderebbe una popolazione di conigli sotto appropriate condizioni?***
 >- ***Una coppia di coniglietti genera una nuova coppia***
 >- ***La gestazione dura un anno***
 >- ***I conigli si riproducono solo dopo il secondo anno***
@@ -28,7 +28,7 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 \phi=\frac {1-\sqrt5}{2} \approx -0.618
 \end{cases}$$
 
-### ***Algoritmo Fibonacci1***
+### ***Algoritmo Fibonacci 1***
 >Algoritmo***Fibonacci1***$(intero\ n)\implies intero$
 > 1. ***$return \frac{1}{\sqrt5}\cdot(\phi^n - \hat{\phi}^n)$***
 #### ***Correttezza?***
@@ -37,7 +37,7 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 >$\phi\approx 1.618 \ e \ \hat{\phi}\approx -0.618$ 
 
 
-### ***Algoritmo Fibonacci2***
+### ***Algoritmo Fibonacci 2***
 >***Utilizzare direttamente la definizione ricorsiva***
 >***$Algoritmo$ Fibonacci2$(intero\ n)\implies intero$***
 > 1. ***$if (n\geq 2) then\ return 1$***
@@ -94,7 +94,7 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 >![[Pasted image 20221006144318.png]]
 >![[Pasted image 20221006144415.png]]
 
-### ***Algoritmo Fibonacci3***
+### ***Algoritmo Fibonacci 3***
 >***Perchè l'algoritmo $Fibonacci2$ è lento? Perchè continua a ricalcolare ripetutamente la soluzione dello stesso sottoproblema. Perchè non memorizzare allora in un array le soluzioni dei sottoproblemi?***
 >
 >Algoritmo***Fibonacci3******$(intero \ n )\implies intero$***
@@ -122,7 +122,7 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 >-***Se abbiamo un algoritmo lento, dovremo solo attendere più a lungo per ottenere il risultato***
 >-***Ma se un algoritmo richiede più spazio di quello a disposizione, non otterremo mai la soluzione, indipendentemente da quanto attendiamo!***
 
-### ***Algoritmo Fibonacci4***
+### ***Algoritmo Fibonacci 4***
 >Algoritmo***Fibonacci4***$(intero \ n)\implies intero$
 >     ***|a$\leftarrow$b$\leftarrow$ 1|***
 >    1. $for$ i=3 $to$ n $do$
@@ -134,7 +134,7 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 >-***In realtà non ci serve mantenere tutti i valori di $F_n$ precedenti, ma solo gli ultimi 
    due, riducendo lo spazio a poche variabili in tutto***
 
-#### ***Algoritmo Fibonacci 5***
+### ***Algoritmo Fibonacci 5***
 >Algoritmo***Fibonacci5***$(intero \ n)\implies intero$
 > 
 >     $for$ i=1 $to$ n-1 $do$
@@ -185,3 +185,10 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 
 #### ***Analisi memoria ausiliaria*** Fibonacci2
 >![[Pasted image 20221010120120.png]]
+>- ***Chiamate attive formano un cammino P radice-nodo
+>- P ha al più n nodi 
+>- Ogni nodo / chiamata usa memoria costante 
+
+#### ***Riepilogo finale***
+>![[Pasted image 20221010121115.png]]
+
