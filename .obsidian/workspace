@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Secondo anno/ASD/Lezione 1-Fibonacci.md",
+            "file": "Secondo anno/LMP/Lezione 1.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secondo anno/ASD/Lezione 1-Fibonacci.md",
+                "file": "Secondo anno/LMP/Lezione 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secondo anno/ASD/Lezione 1-Fibonacci.md",
+                "file": "Secondo anno/LMP/Lezione 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secondo anno/ASD/Lezione 1-Fibonacci.md"
+                "file": "Secondo anno/LMP/Lezione 1.md"
               }
             }
           },
@@ -148,9 +148,9 @@
   },
   "active": "c07ec1f1d8e2a863",
   "lastOpenFiles": [
+    "Secondo anno/ASD/Lezione 1 - Fibonacci.md",
     "Secondo anno/ASD/Immagini Slide/Pasted image 20221010120120.png",
     "Pasted image 20221010110043.png",
-    "Secondo anno/ASD/Lezione 1-Fibonacci.md",
     "Secondo anno/BDC/Teoria.md",
     "Secondo anno/ASD/Pasted image 20221006114921.png",
     "Untitled.md",
