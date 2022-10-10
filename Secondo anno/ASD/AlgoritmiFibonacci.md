@@ -154,5 +154,34 @@ F_{n-1}+F_{n-2}&se\ \ n\geq3\\
 
 ### ***Algoritmo Fibonacci 6***
 >***Algoritmo***Fibonacci6$(intero \ n )\implies intero$
->       
+>     $A \leftarrow$ $\begin {bmatrix} 1 & 1 \\ 1 & 0 \end {bmatrix}$
+>     $M \leftarrow potenzadiMatrice(A,n-1)$
+>     ***Return*** M [0]  [0]
 >
+>***Funzione*** potenzadiMatrici(Matrice A, intero k) $\implies$ matrice 
+>    ***if*** (k $\leq$ 1) ***return*** $\begin {bmatrix} 1 & 1 \\ 1 & 0 \end {bmatrix}$
+>    ***else*** M $\leftarrow$ potenzadiMatrice (A, $\lfloor$$\frac {k}{2}\rfloor$)
+>            M $\leftarrow$ M $\cdot$ M
+>    ***if***  (k è dispari ) ***then*** M $\leftarrow$ M $\cdot$ A
+>    ***return*** M
+
+#### ***Tempo di esecuzione***
+>- ***Tutto il tempo è speso nella procedura*** potenzadiMatrice
+>   - ***Tempo costante***
+>   - ***Chiamata ricorsiva con input*** $\lfloor \frac {k}{2}\rfloor$
+>- ***L'equazione di ricorrenza è pertanto:***
+>         ***$T(n) \leq T(\lfloor \frac {n}{2}\rfloor) + c$***             $(c:costante)$
+
+#### ***Metodo dell'iterazione***
+***Risulta:***
+>       $T(n) \leq 1c + T(\lfloor \frac {n}{2}\rfloor)$            ***Fibonacci6 è esponenzialmente più 
+>               $\leq 2c + T(\lfloor \frac {n}{4}\rfloor)$            veloce di Fibonacci3***
+>               $\leq 3c + T(\lfloor \frac {n}{8}\rfloor)$     
+>                    :
+>               $\leq ic + T(\lfloor \frac {n}{2^i}\rfloor)$ 
+
+***Per i= $(\lfloor log_2 n\rfloor)$ si ottiene***
+>      $T(n) \leq c + \lfloor log_2 n\rfloor + T(1)= O(log_2 n)$
+
+#### ***Analisi memoria ausiliaria*** Fibonacci2
+>![[Pasted image 20221010120120.png]]
