@@ -86,3 +86,13 @@ Cioè ignoro:***
 di dimensione crescente su un processore che sa eseguire un milione di istruzioni di alto livello al secondo.  
 L’indicazione very long indica che il tempo di calcolo supera 1025 anni.***
 >![[Pasted image 20221011122837.png]]
+
+### *Notazione Asintotica $\mathcal {O}$*
+>$f(n) = \mathcal {O} (g(n))$ ***se $\exists$ due costanti $C \geq 0 \ e \ n_{0} \geq 0$ t.c $0 \leq f(n) \leq c \cdot g(n)$***
+>![[Pasted image 20221011124559.png]]
+>***Esempi:***
+>***Sia $f(n) = 2n^2 + 3n$, allora 
+>  -$f(n) = \mathcal {O}(n^3)$            $(c=1, n_{0}=3)$ 
+>  -$f(n) = \mathcal {O} (n^2)$           $(c = 3, n_{0} = 3)$ 
+>  -$f(n) \ne \mathcal {O} (n)$ 
+>  
