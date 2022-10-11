@@ -95,4 +95,51 @@ L’indicazione very long indica che il tempo di calcolo supera 1025 anni.***
 >  -$f(n) = \mathcal {O}(n^3)$            $(c=1, n_{0}=3)$ 
 >  -$f(n) = \mathcal {O} (n^2)$           $(c = 3, n_{0} = 3)$ 
 >  -$f(n) \ne \mathcal {O} (n)$ 
->  
+
+>$\mathcal {O}(g(n))={f(n)} \ | \ \exists \ c \geq 0 \ e \ n_{0} \geq 0$ ***t.c*** $0 \leq f(n) \leq c \cdot g(n) \ \forall \ n \geq n_0$
+>-***La scrittura:***
+>      ***$2n^2+4= \mathcal {O}(n^3)$
+>- è un abuso di notazione per:
+>      $2n^2+4 \in \mathcal {O}(n^3)$
+>![[Pasted image 20221011172433.png]]
+
+#### *Notazione Asintotica $\Omega$*
+>$f(n)= \Omega (g(n))$ ***se $\exists$ due costanti $c>0$ e $n_0\geq 0$ t.c $f(n) \leq c\cdot g(n) \geq 0$ per ogni $n \geq n_0$***
+>![[Pasted image 20221011173211.png]]
+>***Esempi:***
+>-$f(n) = \Omega (n)$                $(c=1, n_0=2)$
+>-$f(n)= \Omega (n^2)$               $(c=1, n_0=3)$
+>-$f(n) \ne \Omega (n^3)$
+
+>$\Omega (g(n))={f(n)} \ | \ \exists \ c \geq 0 \ e \ n_{0} \geq 0$ ***t.c*** $0 \leq c \cdot g(n) \leq f(n) \ \forall \ n \geq n_0$
+>-***La scrittura:***
+>      $2n^2+4 = \Omega (n)$
+>-***è un abuso di notazione per:***
+>      $2n^2 + 4 \in \Omega (n)$
+>![[Pasted image 20221011175145.png]]
+
+#### *Notazione Asintotica $\Theta$*
+>	$f(n) = \Omega(g(n))$ se $\exists$ ***tre costanti*** $c1, c2 > 0$ e $n_0 \geq 0$ t.c $c1 \cdot g(n) \geq f(n) \geq c2 \cdot g(n)$ $\forall$ $n\geq n_0$
+>![[Pasted image 20221011175839.png]]
+>***Esempi:
+>Sia $f(n) = 2n^2 - 3n$, allora***
+>- $f(n)= \Theta (n^2)$               $(c1= 1, c2= 2, n_0=3)$
+>- $f(n) \ne \Theta (n)$ 
+>- $f(n) \ne \Theta (n^3)$
+
+>$\Theta(g(n))={f(n)} \ | \ \exists \ c1, c2 >0 \ e \ n_0 \geq 0$ ***t.c*** $c1\cdot g(n) \leq f(n) \leq c2 \cdot f(n) \ \forall \ n \geq n_0$
+>-***La scrittura:***
+>     $2n^2 + 4 = \Theta (n^2)$
+>-***è un abuso di notazione per:***
+>     $2n^2 + 4 \in \Theta (n^2)$
+
+>***Notare che:***
+>![[Pasted image 20221011181237.png]]
+
+#### *Notazione Asintotica $\mathcal {o}$*
+>***Data una funzione g(n): $N \implies R$, si denota con $\mathcal {o} (g(n))$ l'insieme delle funzioni*** $f(n): N \implies R:$ 
+>  $\mathcal {o}(g(n))= {f(n):\forall \ c>0, \exists \ n_0 \ t.c \ \forall \ n\geq n_0 \ \  0 \leq f(n) <c \cdot g(n) }$ 
+>***Notare:***
+>     $\mathcal {o}(g(n)) \subset \mathcal {O}(g(n))$
+>***Definizione alternativa:***
+>     $f(n)
