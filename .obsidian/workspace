@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c07ec1f1d8e2a863",
+        "id": "c315eafe0f382348",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Secondo anno/CPS/Lezione 1 - Introduzione alla probabilità.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -61,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.50482177734375
+    "width": 267.49999809265137
   },
   "right": {
     "id": "c60a4101ff42dc07",
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secondo anno/CPS/Lezione 1 - Introduzione alla probabilità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secondo anno/CPS/Lezione 1 - Introduzione alla probabilità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Secondo anno/CPS/Lezione 1 - Introduzione alla probabilità.md"
-              }
+              "state": {}
             }
           },
           {
@@ -132,11 +124,13 @@
             }
           },
           {
-            "id": "d70a502a76f6a663",
+            "id": "6b0a92dead87b535",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "calendar",
-              "state": {}
+              "type": "memos_view",
+              "state": {},
+              "pinned": true
             }
           }
         ],
@@ -144,19 +138,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.126708984375
+    "width": 560.5000610351562
   },
-  "active": "c07ec1f1d8e2a863",
+  "active": "28b0308200583281",
   "lastOpenFiles": [
-    "SwagAppunti/Swag-Appunti/CPS/Lezione 1 - Introduzione alla probabilità.md",
+    "delete.md",
+    "Secondo anno/ASD/Lezione 2 - Modelli di calcolo e complessità asintotica.md",
     "Secondo anno/CPS/Lezione 1 - Introduzione alla probabilità.md",
     "Untitled.md",
-    "Secondo anno/CPS/Capitolo 2.md",
     "Secondo anno/ASD/Lezione 1 - Fibonacci.md",
+    "SwagAppunti/Swag-Appunti/CPS/Lezione 1 - Introduzione alla probabilità.md",
+    "Secondo anno/CPS/Capitolo 2.md",
     "SwagAppunti/Swag-Appunti/CPS/Capitolo 0 - Calcolo delle probabilità e statistica.md",
     "Secondo anno/LMP/Lezione 1.md",
-    "Secondo anno/ASD/Immagini Slide/Pasted image 20221010120120.png",
-    "Pasted image 20221010110043.png",
-    "Secondo anno/BDC/Teoria.md"
+    "Secondo anno/ASD/Immagini Slide/Pasted image 20221010120120.png"
   ]
 }
