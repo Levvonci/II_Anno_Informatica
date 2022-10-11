@@ -48,4 +48,34 @@ Sia $\Omega$ un insieme non vuoto e $\mathcal{A}$ una $\sigma$-algebra di eventi
 \end{cases}\implies P(\varnothing) = \sum_{n = 1}P(\varnothing)$$
 Questa condizione non può essere vera se $P(\varnothing) >0$; infatti il secondo membro sarebbe infinito (e il primo membro finito) e per questo l'uguaglianza $n=\infty$ (n finito) non risulterebbe corretta. $\Box$ 
 2. Poniamo $h \geq 1$ e $B_{1},...,B_{h} \in \mathcal{A}$ con $B_{m} \cap B_{n} = \varnothing$ per $m \neq n \: (m, n \in \set{1,..., h})$ allora:  
-> 
+$$P(\bigcup_{n=1}^{h} \: B_{n}) = \sum_{n = 1}^{h} P(B_{n})$$ 
+> **Dim.**
+> Facendo riferimento alla condizione [[#^a8e10e|ii.)]] della def. ponendo $A_{1}=B_{1},...,A_{h}=B_{h},A_{h+1}=A_{h+2}=...=\varnothing$ . Con questa condizione si ha $A_{m}\cap A_{n} = \varnothing$ per $m \neq n$ e si ha $$P(\bigcup_{n=1} \: A_{n}) = \sum_{n = 1} P(A_{n})$$
+> Da cui segue: $$\begin{cases}
+\bigcup_{n \geq 1} A_{n}=B_{1}\cup...\cup B_{h}\cup\varnothing...\cup\varnothing=\bigcup_{n=1}^{h}B_{n})\implies P(\bigcup_{n=1}A_{n})=P(\bigcup_{n=1}^{h}B_{n}) \\
+\\
+\sum_{n = 1} P(A_{n}) = P(B_{1}) + ... + P(B_{h}) + P(\varnothing) + ... + P(\varnothing) = \sum_{n=1}^{h}P(B_{n})\end{cases}$$ ottenendo quindi: $$P(\bigcup_{n=1}^{h} \: B_{n}) = \sum_{n = 1}^{h} P(B_{n})$$ . $\Box$
+3. Vediamo un caso specifico. Prendiamo due insiemi $E, F \in \mathcal{A}, h=2, B_{1} = E \cap F,$ $B_{2} = E \cap F^{c}$.   Allora $P((E \cap F) \cup (E \cap F^{c}))$ = $P(E \cap F)+P(E \cap F^{c}) = P(E)$.
+>**Dim.**
+>Semplice dimostrazione $\rightarrow E = (E \cap F)\cup(E \cap F^{c})$. (Provare con i diagrammi di Venn). $\Box$  
+- Analizziamo ora il caso in cui E = $\Omega$. Dal punto i.) della definizione di [[#^a8e10e|misura di probabilità]] sia ha $P(E) = 1$ da cui possiamo ottenere $P(E) = P(F) + P(F^{c})$  $\forall F \in \mathcal{A}$ e le varie formule inverse. 
+
+## Spazio di probabilità
+>**Terminologia**: la terna $(\Omega,\mathcal{A},P)$ è detta **spazio di probabilità**.  
+
+
+### Spazio di probabilità uniforme discreto
+Questa terminologia si utilizza nel caso in cui si ha la seguente situazione:
+- $\Omega$ insieme finito ($\Omega = \set{1, 2,...., n}$)
+- $\mathcal{A} = \mathcal{P}(\Omega)$ 
+- $\forall \: A \in \mathcal{A} \rightarrow P(A) = \frac{|A|}{|\Omega|} = \frac{|A|}{n}$  
+Questa situazione viene fuori imponendo la seguente condizione:  
+$\forall \omega \in \Omega \longrightarrow P(\{\omega\})$ assume sempre lo stesso valore.  
+>**Dim.**
+>Se indichiamo il valore di $P(\{\omega\})$ con p, allora otteniamo le seguenti uguaglianze:$$1 = P(\Omega) = P(\bigcup_{\omega\in\Omega}\{\omega\}) = \sum_{\omega\in\Omega}P(\{\omega\})=\sum_{\omega\in\Omega}p=np\implies p = \frac{1}{n}$$ Allora per ogni $A\in\mathcal{A}$ si ha: $$P(A) = P(\bigcup_{\omega\in A}\{\omega\}) = \sum_{\omega\in A}P(\{\omega\})=p\:\cdot\: |A| = \frac{|A|}{n} $$  . $\Box$  
+
+## Probabilità condizionata di A dato B
+Sia $(\Omega,\mathcal{A},P)$ uno spazio di probabilità. Siano $A, B \in \mathcal{A}$ con $P(B)\neq0$.  
+>**Def.**  
+>	Si definisce **"probabilità condizionata di A dato B"** la seguente quantità: $$P(A|B) = \frac{P(A\cap B)}{P(B)}$$
+
