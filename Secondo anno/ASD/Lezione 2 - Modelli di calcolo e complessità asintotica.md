@@ -103,7 +103,7 @@ L’indicazione very long indica che il tempo di calcolo supera 1025 anni.***
 >      $2n^2+4 \in \mathcal {O}(n^3)$
 >![[Pasted image 20221011172433.png]]
 
-#### *Notazione Asintotica $\Omega$*
+### *Notazione Asintotica $\Omega$*
 >$f(n)= \Omega (g(n))$ ***se $\exists$ due costanti $c>0$ e $n_0\geq 0$ t.c $f(n) \leq c\cdot g(n) \geq 0$ per ogni $n \geq n_0$***
 >![[Pasted image 20221011173211.png]]
 >***Esempi:***
@@ -118,7 +118,7 @@ L’indicazione very long indica che il tempo di calcolo supera 1025 anni.***
 >      $2n^2 + 4 \in \Omega (n)$
 >![[Pasted image 20221011175145.png]]
 
-#### *Notazione Asintotica $\Theta$*
+### *Notazione Asintotica $\Theta$*
 >	$f(n) = \Omega(g(n))$ se $\exists$ ***tre costanti*** $c1, c2 > 0$ e $n_0 \geq 0$ t.c $c1 \cdot g(n) \geq f(n) \geq c2 \cdot g(n)$ $\forall$ $n\geq n_0$
 >![[Pasted image 20221011175839.png]]
 >***Esempi:
@@ -136,7 +136,7 @@ L’indicazione very long indica che il tempo di calcolo supera 1025 anni.***
 >***Notare che:***
 >![[Pasted image 20221011181237.png]]
 
-#### *Notazione Asintotica $\mathcal {o}$*
+### *Notazione Asintotica $\mathcal {o}$*
 >***Data una funzione g(n): $N \implies R$, si denota con $\mathcal {o} (g(n))$ l'insieme delle funzioni*** $f(n): N \implies R:$ 
 >  $\mathcal {o}(g(n))= {f(n):\forall \ c>0, \exists \ n_0 \ t.c \ \forall \ n\geq n_0 \ \  0 \leq f(n) <c \cdot g(n) }$ 
 >***Notare:***
