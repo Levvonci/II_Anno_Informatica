@@ -178,4 +178,26 @@ L’indicazione very long indica che il tempo di calcolo supera 1025 anni.***
 >$f(n)= \Omega (f(n))$
 
 #### *Simmetria*
->	
+>$f(n)=\Theta (g(n)) \iff g(n)= \Theta (f(n))$
+
+#### *Simmetria trasposta*
+>$f(n) = \mathcal {O}(g(n)) \iff g(n) = \Omega (f(n))$
+>$f(n) = \mathcal {o} (g(n)) \iff g(n)= \omega (f(n))$
+
+#### *Una semplice ma utile proprietà per capire la velocità di una funzione*
+>***Se $\lim_{n \to \infty} \frac {f(n)}{g(n)} = c>0 \implies f(n)= \Theta(g(n))$
+>Infatti:
+>$\frac  {c}{2} < \frac{f(n)}{g(n)}< 2c$
+>per $n$ suff.grande***
+
+### *Velocità dele funzioni composte*
+>***Date f(n) e g(n)
+>                la velocità ad andare a infinito della funzione $f(n)\cdot g(n)$ e la velocità di f(n) "più" la velocità di g(n)
+>
+>                la velocità ad andare a infinito della funzione $\frac {f(n)}{g(n)}$ e la velocità di f(n) "meno" la velocità di g(n)
+
+#### *Esempio*
+>$\frac {n^3 log_{n}+\sqrt{n}log^3_{n}} {n^2+1} =\Theta (n \ log \ n)$
+
+### *Usare la notazione asintotica nelle analisi*
+#### *Usare complessità Fibonacci3: un Upper Bound*
