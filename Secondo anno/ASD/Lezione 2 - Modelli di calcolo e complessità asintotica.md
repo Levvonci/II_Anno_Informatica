@@ -138,8 +138,44 @@ L’indicazione very long indica che il tempo di calcolo supera 1025 anni.***
 
 ### *Notazione Asintotica $\mathcal {o}$*
 >***Data una funzione g(n): $N \implies R$, si denota con $\mathcal {o} (g(n))$ l'insieme delle funzioni*** $f(n): N \implies R:$ 
->  $\mathcal {o}(g(n))= {f(n):\forall \ c>0, \exists \ n_0 \ t.c \ \forall \ n\geq n_0 \ \  0 \leq f(n) <c \cdot g(n) }$ 
+>$\mathcal {o}(g(n))= {f(n):\forall \ c>0, \exists \ n_0 \ t.c \ \forall \ n\geq n_0 \ \  0 \leq f(n) <c \cdot g(n) }$ 
 >***Notare:***
 >     $\mathcal {o}(g(n)) \subset \mathcal {O}(g(n))$
 >***Definizione alternativa:***
->     $f(n)
+>     $f(n) = \mathcal {o}(g(n)) \iff \lim_ {n \to \infty } \frac {f(n)} {g(n)} = o$ 
+
+### *Notazione Asintotica $\omega$*
+>***Data una funzione g(n): $N \implies R$, si denota con $\omega(g(n))$ l'insieme delle funzioni $f(n)$:
+>$\omega(g(n)) = {f(n) : \forall \ c>0,\ \exists \ n_0 \ t.c \ \forall \ n\geq n_0 \ 0\leq c\cdot(n)<f(n)}$ 
+>Notare:
+>     $\omega (g(n)) \subset \Omega(g(n))$
+>Definizione alternativa:
+>    $f(n)=\omega(g(n)) \iff \lim_ {n \to \infty } \frac {f(n)} {g(n)} = \infty$ 
+
+### *Riassumendo*
+>$f(n)= \Theta (g(n)) \iff 0<c1\leq \frac{f(n)}{g(n)}\leq c2<\infty$  
+>$f(n) = \mathcal {O}(g(n)) \iff \frac {f(n)}{g(n)}\leq c2 < \infty$ 
+>$f(n) = \Omega (g(n)) \iff 0<c1\leq \frac{f(n)}{g(n)}$
+>$f(n)=\mathcal {o}(g(n)) \iff \lim_{n \to \infty} \frac {f(n)}{g(n)}= \mathcal {o}$   
+>$f(n)=\omega(g(n)) \iff \lim_{n \to \infty} \frac {f(n)}{g(n)}= \mathcal {\infty}$
+
+### *Analogie*
+>![[Pasted image 20221013122824.png]]
+
+### *Graficamente*
+>![[Pasted image 20221013122955.png]]
+
+### *Propietà della notazione asintotica*
+#### *Transitività* 
+>$f(n) = \Theta (g(n)) \  \ e \ \ g(n) = \Theta (h(n)) \implies f(n) = \Theta (h(n))$
+>$f(n) = \mathcal {O} (g(n)) \ \ e \ \ g(n)= \mathcal {O}(h(n)) \implies f(n)= \mathcal {O}(h(n))$
+>$f(n)=\Omega (g(n)) \ \ e \ \ g(n) = \Omega (h(n)) \implies f(n)= \Omega (h(n))$
+>$f(n)= \mathcal {o} (g(n)) \ \ e \ \ g(n)= \mathcal {o}(h(n)) \implies f(n) =\mathcal {o} (h(n))$
+>$f(n) = \omega (g(n)) \ \ e \ \ g(n)= \omega (h(n)) \implies f(n)= \omega (h(n))$	
+#### *Riflessività*
+>$f(n)=\Theta (f(n))$
+>$f(n) = \mathcal {O} (f(n))$
+>$f(n)= \Omega (f(n))$
+
+#### *Simmetria*
+>	
