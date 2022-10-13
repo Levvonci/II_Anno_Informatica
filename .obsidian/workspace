@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Secondo anno/ASD/Lezione 2 - Modelli di calcolo e complessità asintotica.md",
+            "file": "Lezione 3.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secondo anno/ASD/Lezione 2 - Modelli di calcolo e complessità asintotica.md",
+                "file": "Lezione 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secondo anno/ASD/Lezione 2 - Modelli di calcolo e complessità asintotica.md",
+                "file": "Lezione 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secondo anno/ASD/Lezione 2 - Modelli di calcolo e complessità asintotica.md"
+                "file": "Lezione 3.md"
               }
             }
           },
@@ -164,6 +164,7 @@
   },
   "active": "f35f40294e6b696d",
   "lastOpenFiles": [
+    "Secondo anno/ASD/Immagini Slide/Pasted image 20221013122955.png",
     "Secondo anno/ASD/Lezione 2 - Modelli di calcolo e complessità asintotica.md",
     "SwagAppunti/Swag-Appunti/ASD/Capitolo 0 - Algoritmi e strutture dati.md",
     "2022-10-11.md",
@@ -172,7 +173,6 @@
     "Secondo anno/ASD/Lezione 1 - Fibonacci.md",
     "Pasted image 20221011124559.png",
     "Secondo anno/LMP/Lezione 1.md",
-    "Pasted Image 20221011095712.png",
-    "delete.md"
+    "Pasted Image 20221011095712.png"
   ]
 }

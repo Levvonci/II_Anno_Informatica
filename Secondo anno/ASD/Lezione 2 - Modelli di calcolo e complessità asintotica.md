@@ -227,10 +227,10 @@ L’indicazione very long indica che il tempo di calcolo supera 1025 anni.***
 >	$T(n) \geq c_{4}\cdot (n-3) = c_{4}n - 3c_{4} = \Theta (n) \rightarrow \newline T(n)=\Omega (n) \rightarrow T(n)=\Theta (n)$
 
 ### *Notazione Asintotica: perchè è una grande idea*
->- ***Misura indipendente dall'implementazione dell'algoritmo e dalla macchina  reale su cui è eseguito
->- Il  "dettagli" nascosti (costanti moltiplicative e termini di ordine inferiore) sono poco rilevanti quando n è grande per funzioni asintoticamente diverse
->- Analisi dettagliata del numero di passi  realmente eseguiti sarebbe difficile, noiosa e non direbbe molto di più (come si possono conoscere per esempio i costi reali di un'istituzione di alto livello?)
->- Si è visto che descrive bene in pratica la velocità degli algoritmi***
+>-***Misura indipendente dall'implementazione dell'algoritmo e dalla macchina  reale su cui è eseguito
+>-Il  "dettagli" nascosti (costanti moltiplicative e termini di ordine inferiore) sono poco rilevanti quando n è grande per funzioni asintoticamente diverse
+>-Analisi dettagliata del numero di passi  realmente eseguiti sarebbe difficile, noiosa e non direbbe molto di più (come si possono conoscere per esempio i costi reali di un'istituzione di alto livello?)
+>-Si è visto che descrive bene in pratica la velocità degli algoritmi***
 
 
 
