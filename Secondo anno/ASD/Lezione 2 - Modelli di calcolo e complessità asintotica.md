@@ -1,3 +1,4 @@
+## *Modelli di calcolo e complessità asintotica*
 ### *Macchina di Turing*
 >![[Pasted image 20221011104706.png]]
 >- ***Struttura di basso livello, troppo differente ai calcolatori reali***
@@ -201,3 +202,36 @@ L’indicazione very long indica che il tempo di calcolo supera 1025 anni.***
 
 ### *Usare la notazione asintotica nelle analisi*
 #### *Usare complessità Fibonacci3: un Upper Bound*
+>***Algoritmo*** fibonacci3 $(intero \ n) \implies intero$
+>   sia Fib un array di n interi 
+>   Fib [1] $\leftarrow$ Fib[2] $\leftarrow$ 1
+>   $for$ i=3 $to$ n $do$
+>         Fib [i]$\leftarrow$ Fib [i-1]+Fib [i-2]
+>     $return$ Fib [n]
+>***T(n): complessità compiutazionale nel caso peggiore con input n***
+>***$c_j$: # pasi elementari eseguiti su una RAM quando è eseguita la linea di codice j
+>-linea 1,2,5 eseguita una volta 
+>-linea 3,4 eseguite al più n volte 
+>$T(n) \leq c_{1}+c_{2}+c_{5}+(c_{3}+c_{4})\cdot n= \Theta (n) =T(n)=\mathcal {O}(n)$
+
+### *Analisi complessità Fibonacci3: un Lower Bound*
+>***Algoritmo*** fibonacci3 $(intero \ n )\implies intero$
+>     sia Fib un array di n interi 
+>     Fib [1]$\leftarrow$ Fib [2]$\leftarrow$ 1
+>     $for$ i=3 $to$ n $do$ 
+>         Fib [i]$\leftarrow$ Fib [i-1]+Fib [i-2]
+>     $return$ Fib [n]
+>***T(n): complessità computazionale nel caso peggiore con input n 
+>$c_j$: # passi elementari eseguiti su una RAM quando è eseguita la linea di codice j 
+>La linea 4 è eseguita almeno n-3 volte***
+>	$T(n) \geq c_{4}\cdot (n-3) = c_{4}n - 3c_{4} = \Theta (n) \rightarrow \newline T(n)=\Omega (n) \rightarrow T(n)=\Theta (n)$
+
+### *Notazione Asintotica: perchè è una grande idea*
+>- ***Misura indipendente dall'implementazione dell'algoritmo e dalla macchina  reale su cui è eseguito
+>- Il  "dettagli" nascosti (costanti moltiplicative e termini di ordine inferiore) sono poco rilevanti quando n è grande per funzioni asintoticamente diverse
+>- Analisi dettagliata del numero di passi  realmente eseguiti sarebbe difficile, noiosa e non direbbe molto di più (come si possono conoscere per esempio i costi reali di un'istituzione di alto livello?)
+>- Si è visto che descrive bene in pratica la velocità degli algoritmi***
+
+
+
+
