@@ -1,0 +1,9 @@
+unicode
+codifica astratta 
+numero:glifo
+numero non codifica binaria
+UTF16
+implementa codifica e trasforma in unicode 
+Char 
+16 bit
+

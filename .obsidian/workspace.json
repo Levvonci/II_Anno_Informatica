@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2a99a78adb37f0be",
+        "id": "4d49b722e73e7292",
         "type": "tabs",
         "children": [
           {
-            "id": "1ec9a875ca67353b",
+            "id": "07c17bd11e4da016",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo anno/FI/Lezione 1.md",
-                "mode": "preview",
+                "file": "Secondo anno/ASD/Lezione 1 - Capitolo 1.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secondo anno/FI/Lezione 1.md",
+                "file": "Secondo anno/ASD/Lezione 1 - Capitolo 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secondo anno/FI/Lezione 1.md",
+                "file": "Secondo anno/ASD/Lezione 1 - Capitolo 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secondo anno/FI/Lezione 1.md"
+                "file": "Secondo anno/ASD/Lezione 1 - Capitolo 1.md"
               }
             }
           },
@@ -169,17 +169,16 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "1ec9a875ca67353b",
+  "active": "07c17bd11e4da016",
   "lastOpenFiles": [
-    "Secondo anno/ASD/Lezione 2 - Modelli di calcolo e complessità asintotica.md",
-    "Lezione 3.md",
-    "2022-10-14.md",
-    "Secondo anno/ASD/Lezione 1 - Fibonacci.md",
-    "Secondo anno/ASD/Immagini Slide/Pasted image 20221013122955.png",
-    "SwagAppunti/Swag-Appunti/ASD/Capitolo 0 - Algoritmi e strutture dati.md",
-    "2022-10-11.md",
-    "Untitled.md",
-    "Pasted image 20221011124559.png",
-    "Secondo anno/LMP/Lezione 1.md"
+    "Secondo anno/SOR/Capitolo 0 - Sistemi operativi e reti.md",
+    "Secondo anno/ASD/Indice degli appunti.md",
+    "Secondo anno/ASD/Lezione 1 - Capitolo 1.md",
+    "Secondo anno/ASD/Lezione 2 - Capitolo 2.md",
+    "Secondo anno/SOR/Lezione 3 - Operazioni del sistema operativo.md",
+    "Secondo anno/SOR/Lezione 2 - Tipologie di sistemi.md",
+    "Secondo anno/SOR/Lezione 1 - Introduzione sui sistemi operativi.md",
+    "Franchino Repository/Appunti SOR/Appunti.md",
+    "Secondo anno/LMP/img/getStarted-compiler.gif"
   ]
 }
