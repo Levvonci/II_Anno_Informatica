@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo anno/ASD/Lezione 3 - Capitolo 2.md",
+                "file": "Appunti-II-anno/Appunti ASD/Esercizi/Esercizi sul metodo della ricorsione.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secondo anno/ASD/Lezione 3 - Capitolo 2.md",
+                "file": "Appunti-II-anno/Appunti ASD/Esercizi/Esercizi sul metodo della ricorsione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secondo anno/ASD/Lezione 3 - Capitolo 2.md",
+                "file": "Appunti-II-anno/Appunti ASD/Esercizi/Esercizi sul metodo della ricorsione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secondo anno/ASD/Lezione 3 - Capitolo 2.md"
+                "file": "Appunti-II-anno/Appunti ASD/Esercizi/Esercizi sul metodo della ricorsione.md"
               }
             }
           },
@@ -157,15 +157,15 @@
   },
   "active": "894fe97dcfb2bb7a",
   "lastOpenFiles": [
+    "Appunti-II-anno/Appunti ASD/Lezione 5 - Capitolo 4.md",
+    "Appunti-II-anno/Appunti ASD/Lezione 4 - Capitolo 2.md",
+    "Appunti-II-anno/Appunti ASD/Esercizi/Esercizio 2.md",
+    "Appunti-II-anno/Appunti ASD/Esercizi/Esercizi sul metodo della ricorsione.md",
+    "Appunti-II-anno/Appunti ASD/Esercizi/Esercizi Pseudo-codice e complessità temporale.md",
+    "Secondo anno/ASD/Lezione 3 - Capitolo 2.md",
     "Secondo anno/ASD/Lezione 5 - Capitolo 4.md",
     "Untitled.md",
     "Secondo anno/FI/Lezione 3 - Espressioni regolari,Grammatiche.md",
-    "Secondo anno/ASD/Lezione 3 - Capitolo 2.md",
-    "Secondo anno/FI/Lezione 2 - Espressioni regolari,Linguaggi e problemi.md",
-    "Swag-Appunti/ASD/Capitolo 2 - Modelli di calcolo e notazione asintotica.md",
-    "Secondo anno/SOR/Lezione 3 - Operazioni del sistema operativo.md",
-    "Swag-Appunti/CPS/Lezione 1 - Introduzione alla probabilità.md",
-    "Swag-Appunti/CPS/Lezione 2 - Formule legate alla probabilità condizionata.md",
-    "Swag-Appunti/CPS/Capitolo 0 - Calcolo delle probabilità e statistica.md"
+    "Secondo anno/FI/Lezione 2 - Espressioni regolari,Linguaggi e problemi.md"
   ]
 }
