@@ -11,8 +11,12 @@
             "id": "e2f57d789f29636c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md"
+              }
             }
           },
           {
@@ -158,17 +166,17 @@
     "direction": "horizontal",
     "width": 406
   },
-  "active": "28b0308200583281",
+  "active": "e2f57d789f29636c",
   "lastOpenFiles": [
+    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103094813.png",
+    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221028121859.png",
+    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103100605.png",
+    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103102304.png",
+    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103102620.png",
+    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103102511.png",
+    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103104429.png",
+    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103104448.png",
     "Appunti-II-anno/Appunti ASD/Lezione 6 - HeapSort.md",
-    "Appunti-II-anno/README.md",
-    "Appunti-II-anno/Appunti FI/Lezione 3 - Espressioni regolari,Grammatiche.md",
-    "Appunti-II-anno/Appunti FI/Lezione 2 - Espressioni regolari,Linguaggi e problemi.md",
-    "Appunti-II-anno/Appunti LMP/Lezione 5.md",
-    "Appunti-II-anno/Appunti ASD/Esercizi/Esercizi sul metodo della ricorsione.md",
-    "Appunti-II-anno/Appunti ASD/Lezione 5 - Capitolo 4.md",
-    "Appunti-II-anno/Appunti ASD/Lezione 4 - Capitolo 2.md",
-    "Appunti-II-anno/Appunti ASD/Esercizi/Esercizio 2.md",
-    "Appunti-II-anno/Appunti ASD/Esercizi/Esercizi Pseudo-codice e complessità temporale.md"
+    "Appunti-II-anno/README.md"
   ]
 }
