@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cce3cdf72e5e502d",
+        "id": "9fb72e69b93b4552",
         "type": "tabs",
         "children": [
           {
-            "id": "0ee2d6e5d98eab13",
+            "id": "e2f57d789f29636c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -139,16 +139,29 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "6b0903304a3b39d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d83612abfb640c6a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 406
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "0ee2d6e5d98eab13",
+  "active": "28b0308200583281",
   "lastOpenFiles": [
+    "Appunti-II-anno/Appunti ASD/Lezione 6 - HeapSort.md",
+    "Appunti-II-anno/README.md",
     "Appunti-II-anno/Appunti FI/Lezione 3 - Espressioni regolari,Grammatiche.md",
     "Appunti-II-anno/Appunti FI/Lezione 2 - Espressioni regolari,Linguaggi e problemi.md",
     "Appunti-II-anno/Appunti LMP/Lezione 5.md",
@@ -156,8 +169,6 @@
     "Appunti-II-anno/Appunti ASD/Lezione 5 - Capitolo 4.md",
     "Appunti-II-anno/Appunti ASD/Lezione 4 - Capitolo 2.md",
     "Appunti-II-anno/Appunti ASD/Esercizi/Esercizio 2.md",
-    "Appunti-II-anno/Appunti ASD/Esercizi/Esercizi Pseudo-codice e complessità temporale.md",
-    "Secondo anno/ASD/Lezione 3 - Capitolo 2.md",
-    "Secondo anno/ASD/Lezione 5 - Capitolo 4.md"
+    "Appunti-II-anno/Appunti ASD/Esercizi/Esercizi Pseudo-codice e complessità temporale.md"
   ]
 }
