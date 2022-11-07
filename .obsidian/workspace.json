@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.50260543823242
+    "width": 200
   },
   "right": {
     "id": "c60a4101ff42dc07",
@@ -164,19 +164,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406
+    "width": 365.5
   },
   "active": "e2f57d789f29636c",
   "lastOpenFiles": [
+    "Secondo anno/Appunti ASD/Algoritmi/Algoritmi.md",
+    "Secondo anno/Appunti FI/Lezione 6 - ASF.md",
+    "Secondo anno/README.md",
+    "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md",
     "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103094813.png",
     "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221028121859.png",
     "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103100605.png",
     "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103102304.png",
     "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103102620.png",
-    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103102511.png",
-    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103104429.png",
-    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103104448.png",
-    "Appunti-II-anno/Appunti ASD/Lezione 6 - HeapSort.md",
-    "Appunti-II-anno/README.md"
+    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103102511.png"
   ]
 }
