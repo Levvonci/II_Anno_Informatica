@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md",
+                "file": "Secondo anno/Appunti ASD/Esercizi/Esercizio lezione 7 (Oracolo e query).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md",
+                "file": "Secondo anno/Appunti ASD/Esercizi/Esercizio lezione 7 (Oracolo e query).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md",
+                "file": "Secondo anno/Appunti ASD/Esercizi/Esercizio lezione 7 (Oracolo e query).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md"
+                "file": "Secondo anno/Appunti ASD/Esercizi/Esercizio lezione 7 (Oracolo e query).md"
               }
             }
           },
@@ -164,19 +164,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 200
   },
-  "active": "e2f57d789f29636c",
+  "active": "265a8a287f2cb2fa",
   "lastOpenFiles": [
+    "Secondo anno/Appunti ASD/Esercizi/ImgEs/Pasted image 20221104103945.png",
+    "Secondo anno/Appunti ASD/Esercizi/Esercizio lezione 7 (Oracolo e query).md",
+    "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md",
     "Secondo anno/Appunti ASD/Algoritmi/Algoritmi.md",
     "Secondo anno/Appunti FI/Lezione 6 - ASF.md",
     "Secondo anno/README.md",
-    "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md",
     "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103094813.png",
     "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221028121859.png",
     "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103100605.png",
-    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103102304.png",
-    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103102620.png",
-    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103102511.png"
+    "Appunti-II-anno/Appunti ASD/Immagini/Pasted image 20221103102304.png"
   ]
 }
