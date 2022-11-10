@@ -5,14 +5,14 @@
 	- [[Algoritmi#MergeSort|MergeSort]]
 	- [[Algoritmi#BubbleSort|BubbleSort]]
 	- [[Algoritmi#Insertion Sort|InsertionSort]]
-	- [[Lezione 5 - Capitolo 4#Selection Sort|SelectionSort]]
-	- [[Lezione 5 - Capitolo 4#QuickSort|QuickSort]]
+	- [[Algoritmi#SelectionSort|SelectionSort]]
+	- [[Algoritmi#QuickSort|QuickSort]]
 	- [[Algoritmi#HeapSort|HeapSort]]
 
 - Algoritmi non basati su confronto
 	- [[Algoritmi#IntegerSort|IntegerSort]]
-	- BucketSort
-	- RadixSort
+	- [[Algoritmi#BucketSort|BucketSort]]
+	- [[Algoritmi#RadixSort|RadixSort]]
 
 Per una spiegazione più dettagliata di qeusti algoritmi si rimanda a questo link [Algoritmi](http://people.disim.univaq.it/guido.proietti/lezioni_algo2021.html)
 
@@ -85,7 +85,7 @@ Pseudo-codice HeapSort:
 >1. Heapify(A)
 >2. $Heapsize[A]=n$
 >3. for i = n down to 2 do
->4.	   scambia $A[i]$ e $A[j]$
+>4.	   scambia $A[1]$ e $A[i]$
 >5.    $Heapsize[A]=Heapsize[A]-1$
 >6.    fixHeap(1,A)
 
@@ -251,6 +251,44 @@ Tempo linearea se $k=O(n)$
 
 
 
+## BucketSort
+
+Spiegazione qui -> [[Lezione 8 - Capitolo 4#BucketSort|BucketSort]]
+
+### Pseudo-codice
+
+Pseudo codice BucketSort
+
+>BucketSort(X,k)
+>1. Sia Y un array di dimensione k
+>2. for i = 1 to k do $Y[i]$=lista vuota
+>3. for i = 1 to n do
+>	1. if ($chiave(X[i])\not\in[1,k]$) then errore
+>	2. else appendi il record $X[i]$ alla lista $Y[chiave(X[i])]$
+>3. for i = 1 to k do
+>	1. copia ripetutamente in X gli elementi della lista $Y[i]$
+
+### Complessità temporale
+
+Come l'IntegerSort, quindi $O(n+k)$
+
+## RadixSort
+
+Spiegazione qui -> [[Lezione 8 - Capitolo 4#RadixSort|RadixSort]]
+### Pseudo-codice
+
+Pseudo codice RadixSort
+>RadixSort(A)
+
+### Complessità
+- $O(log_bk)$ passate di BucketSort
+- Ciascuna passata richiede tempo $O(n+b)$
+Quindi:
+$$O((n+b)log_bk)$$
+Se $b=\Theta(n)$, si ha $O(nlog_nk)=O[n\frac{log(k)}{log(n)}]$
+
+Tempo lineare se $k=O(n^c)$, c costante
+
 # Codici degli algoritmi in python
 ## BubbleSort
 ```python
@@ -361,4 +399,58 @@ def Partition(A,i,f):
 
 a = [1,10,4,3,3,5,20]
 print(QuickSort(a,0,6))
+```
+
+## SelectionSort
+
+```python
+def SelectionSort(a):
+    n=len(a)
+    for k in range(n-2):
+        m=k+1
+        for j in range(k+2,n):
+            if a[j]<a[m]:
+                m=j
+        a[m],a[k+1]=a[k+1],a[m]
+    return a
+a = [1,10,4,3,3,5,20]
+print(SelectionSort(a))
+```
+
+
+## HeapSort
+da completare
+```python
+import math
+def HeapSort(a):
+    heapify(a)
+    heapsize = len(a)-1
+    for i in range(heapsize,2,-1):
+        a[1],a[i]=a[i],a[1]
+        heapsize -=1
+        fixHeap(1,a)
+    return a
+
+def fixHeap(i,a):
+    heapsize = len(a)-1
+    sx = 2*i
+    dx = 2*i+1
+    if sx<=heapsize and a[sx]>a[i]:
+        max = sx
+    else:
+        max = i
+    if dx<=heapsize and a[dx]>a[max]:
+        max = dx
+    if max != i:
+        a[i],a[max] = a[max],a[i]
+        fixHeap(max,a)
+
+def heapify(a):
+    heapsize = len(a)-1
+    n=heapsize
+    for i in range(math.floor(n/2),1):
+        fixHeap(i,a)
+
+a = [1,10,4,3,3,5,20]
+print(HeapSort(a))
 ```
