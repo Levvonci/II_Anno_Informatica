@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "9fb72e69b93b4552",
+        "id": "70395a4af24ebaf8",
         "type": "tabs",
         "children": [
           {
-            "id": "e2f57d789f29636c",
+            "id": "a4f62cc88e0bf070",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Secondo anno/Appunti FI/Lezione 7 - Equivalenza tra ASFD e ASFND.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Secondo anno/Appunti FI/Lezione 7 - Equivalenza tra ASFD e ASFND.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Secondo anno/Appunti FI/Lezione 7 - Equivalenza tra ASFD e ASFND.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Secondo anno/Appunti FI/Lezione 7 - Equivalenza tra ASFD e ASFND.md"
+              }
             }
           },
           {
@@ -141,11 +149,11 @@
         "currentTab": 4
       },
       {
-        "id": "6b0903304a3b39d8",
+        "id": "b8c187124c75f60d",
         "type": "tabs",
         "children": [
           {
-            "id": "d83612abfb640c6a",
+            "id": "e2f57d789f29636c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -156,19 +164,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 253.5
   },
-  "active": "265a8a287f2cb2fa",
+  "active": "a4f62cc88e0bf070",
   "lastOpenFiles": [
+    "Secondo anno/Appunti FI/Lezione 7 - Equivalenza tra ASFD e ASFND.md",
+    "Secondo anno/Appunti BSD/Lezione 3.md",
+    "Secondo anno/Appunti ASD/Lezione 8 - Capitolo 4.md",
     "Secondo anno/Appunti ASD/Lezione 2 - Capitolo 2.md",
+    "Secondo anno/Appunti FI/Lezione 6 - ASF.md",
     "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md",
+    "Secondo anno/README.md",
     "Secondo anno/Appunti ASD/Algoritmi/Algoritmi.md",
     "Secondo anno/Appunti FI/Lezione 3 - Espressioni regolari,Grammatiche.md",
-    "Secondo anno/Appunti FI/Lezione 6 - ASF.md",
-    "Secondo anno/Appunti FI/Lezione 5 - Automi.md",
-    "Secondo anno/Appunti FI/Lezione 4 - Ancora sulle grammatiche.md",
-    "Secondo anno/Appunti FI/Lezione 2 - Espressioni regolari,Linguaggi e problemi.md",
-    "Secondo anno/Appunti FI/Lezione 1 - Insiemi infiniti, Linguaggi.md",
-    "Secondo anno/Appunti ASD/Esercizi/Esercizio lezione 7 (Oracolo e query).md"
+    "Secondo anno/Appunti FI/Lezione 5 - Automi.md"
   ]
 }
