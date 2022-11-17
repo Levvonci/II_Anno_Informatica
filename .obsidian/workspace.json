@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo anno/Appunti FI/Lezione 7 - Equivalenza tra ASFD e ASFND.md",
+                "file": "Secondo anno/Appunti FI/MOD I/Esercizi/Indice degli esercizi FI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secondo anno/Appunti FI/Lezione 7 - Equivalenza tra ASFD e ASFND.md",
+                "file": "Secondo anno/Appunti FI/MOD I/Esercizi/Indice degli esercizi FI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secondo anno/Appunti FI/Lezione 7 - Equivalenza tra ASFD e ASFND.md",
+                "file": "Secondo anno/Appunti FI/MOD I/Esercizi/Indice degli esercizi FI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secondo anno/Appunti FI/Lezione 7 - Equivalenza tra ASFD e ASFND.md"
+                "file": "Secondo anno/Appunti FI/MOD I/Esercizi/Indice degli esercizi FI.md"
               }
             }
           },
@@ -164,19 +164,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 461.5
   },
   "active": "a4f62cc88e0bf070",
   "lastOpenFiles": [
-    "Secondo anno/Appunti FI/Lezione 7 - Equivalenza tra ASFD e ASFND.md",
-    "Secondo anno/Appunti BSD/Lezione 3.md",
-    "Secondo anno/Appunti ASD/Lezione 8 - Capitolo 4.md",
-    "Secondo anno/Appunti ASD/Lezione 2 - Capitolo 2.md",
-    "Secondo anno/Appunti FI/Lezione 6 - ASF.md",
+    "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizio RegEx.md",
+    "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizi_ASF_2_nov_2022.pdf",
+    "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizi unità 3-4.md",
+    "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizi Grammatiche.md",
+    "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizi ASF.md",
+    "Secondo anno/Appunti ASD/Lezione 5 - Capitolo 4.md",
+    "Secondo anno/Appunti ASD/Lezione 6 - HeapSort.md",
+    "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 5.md",
     "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 4.md",
-    "Secondo anno/README.md",
-    "Secondo anno/Appunti ASD/Algoritmi/Algoritmi.md",
-    "Secondo anno/Appunti FI/Lezione 3 - Espressioni regolari,Grammatiche.md",
-    "Secondo anno/Appunti FI/Lezione 5 - Automi.md"
+    "Secondo anno/Appunti FI/Lezione 7 - Equivalenza tra ASFD e ASFND.md"
   ]
 }

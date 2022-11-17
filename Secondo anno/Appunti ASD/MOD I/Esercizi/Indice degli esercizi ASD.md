@@ -1,0 +1,7 @@
+- [[Esercizio 1]]
+- [[Esercizio 2]]
+- [[Esercizi sul metodo della ricorsione]]
+- [[Esercizi Pseudo-codice e complessità temporale]]
+- [[Esercitazioni]]
+- [[Esercizio lezione 7 mod]]
+- [[Esercizio lezione 7 (Oracolo e query)]]
