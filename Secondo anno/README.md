@@ -1,10 +1,15 @@
-# Appunti-II-anno
-Miei appunti del secondo anno della CdL in Informatica Tor Vergata
+# AppuntiAnno22-23
+
 * appunti ASD
+
 * appunti LMP
+
 * appunti SOR
+
 * appunti BS
+
 * appunti FI
+
 * appunti CPS
 
 
