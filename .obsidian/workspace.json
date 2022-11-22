@@ -11,20 +11,15 @@
             "id": "a4f62cc88e0bf070",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "4de7e6b7be343408",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Secondo_Anno/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -74,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c60a4101ff42dc07",
@@ -90,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Secondo_Anno/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Secondo_Anno/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Secondo_Anno/README.md"
+              }
             }
           },
           {
@@ -165,19 +165,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 200
   },
-  "active": "265a8a287f2cb2fa",
+  "active": "a4f62cc88e0bf070",
   "lastOpenFiles": [
+    "Secondo anno/Appunti FI/MOD I/Lezione 9 - Sempre su RE,RG e ASF.md",
+    "Secondo anno/Appunti FI/MOD I/Lezione 10 - Minimizzazione di ASF.md",
+    "Secondo anno/Appunti FI/MOD I/Lezione 11 - Pumping Lemma,Linguaggi CF.md",
+    "Secondo anno/Appunti FI/MOD I/Lezione 12 - Sempre su Linguaggi CF.md",
     "Secondo anno/Appunti FI/MOD I/Lezioni Fondamenti.md",
     "Secondo anno/Appunti FI/MOD I/Esercizi/Indice degli esercizi FI.md",
     "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizio RegEx.md",
     "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizi_ASF_2_nov_2022.pdf",
     "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizi unità 3-4.md",
-    "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizi Grammatiche.md",
-    "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizi ASF.md",
-    "Secondo anno/Appunti ASD/Lezione 5 - Capitolo 4.md",
-    "Secondo anno/Appunti ASD/Lezione 6 - HeapSort.md",
-    "Secondo anno/Appunti ASD/Lezione 7 - Capitolo 5.md"
+    "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizi Grammatiche.md"
   ]
 }
