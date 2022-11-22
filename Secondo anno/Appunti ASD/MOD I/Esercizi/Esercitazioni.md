@@ -177,7 +177,7 @@ Con la funzione trovaMax trovo l'indice dell'elemento maggiore nell'array A, com
 Poi partendo da m inverto la lista, quindi inverto da m a fine lista (tutta la parte sinistra partendo da m)
 a questo punto in tempo lineare eseguo il merge delle due sottoliste e ottengo l'array ordinato in tempo $o(nlog(n))$
 
-# Esercizio 2
+## Esercizio 2
 
 ## Esercizio 3 (opzionale)
 
@@ -216,22 +216,151 @@ print(algoritmo(a))
 
 Pseudocodice
 
+Algoritmo
+![[appunti asd/mod i/esercizi/imges/Pasted image 20221117115715.png|center|700]]
+
+Applicazione BinSearch
+![[appunti asd/mod i/esercizi/imges/Pasted image 20221117115744.png|center|700]]
 
 
+# Esercitazione 3
 
+L'albero per es 1 e es2 è fatto così
 
+```python
+class TreeNode:
+    def __init__(self, val, left=None, right=None,col = None):
+        self.val = val
+        self.left = left
+        self.right = right
+        self.col = col
+root = TreeNode(1)
+l1 = TreeNode(10)
+r1 = TreeNode(4)
+l1_l = TreeNode(1)
+l1_r = TreeNode(2)
+l1_l_l = TreeNode(1)
+l1_l_r = TreeNode(2)
+l1_r_l = TreeNode(30)
+l1_r_l_l = TreeNode(50)
+l1_r_r = TreeNode(2)
+r1_l = TreeNode(15)
+r1_l_l = TreeNode(2)
+r1_r = TreeNode(20)
+r1_r_l = TreeNode(20)
+  
+root.col = "R"
+l1.col = "R"
+r1.col = "R"
+l1_l.col = "R"
+l1_l_l.col = "R"
+l1_r.col = "R"
+l1_l_r.col = "R"
+l1_r_l.col = "N"
+l1_r_l_l.col = "R"
+l1_r_r.col = "R"
+r1_l.col = "R"
+r1_l_l.col = "N"
+r1_r.col = "N"
+r1_r_l.col = "R"
+  
+root.left = l1
+root.right = r1
+l1.left = l1_l
+l1.right = l1_r
+l1_l.left = l1_l_l
+l1_l.right = l1_l_r
+l1_r.left = l1_r_l
+l1_r.right = l1_r_r
+l1_r_l.left = l1_r_l_l
+r1.left = r1_l
+r1.right = r1_r
+r1_l.left = r1_l_l
+r1_r.left = r1_r_l
 
+```
 
+## Esercizio 1
 
+Dato un albero binario T di n nodi, dove ogni nodo ha: **valore** $val(v)\gt0$, **colore** $col(v)\in\lbrace R,N\rbrace$,ottenere il valore del cammino rosso di tipo radice-nodo di valore massimo
 
+![[appunti asd/mod i/esercizi/imges/Pasted image 20221121160455.png|center]]
 
+Def: il **valore di un cammino** è la somma di valori dei nodi del cammino
+Def: un cammino è **rosso** se tutti i suoi nodi sono di colore rosso
 
+![[appunti asd/mod i/esercizi/imges/Pasted image 20221121160433.png|center|500]]
 
+Soluzione in python:
+```python
 
+def problema_1(root):
+    if root == None:
+        return 0
+    if root.col == "N":
+        return 0
+    return root.val+max(problema_1(root.left),problema_1(root.right))
+  
+n = problema_1(root)
+print(n)
+```
 
+Pseudocodice:
+Arriverà!!
 
+Complessità $O(n)$
 
+## Esercizio 2
 
+Input:
+- albero binario T di n nodi
+- un intero $h\geq0$
 
+Output: numero di nodi di T con profondità almeno h
 
+Def: **profondità di un nodo** distanza (#di archi) dalla radice
 
+Es: $h=3\implies output=7$
+
+Soluzione in python
+
+```python
+def problema_2(root,h,i):
+    #Uso la visita in ampiezza, algoritmo BFS
+    #i = livello
+    if root == None:
+        return 0
+    if i>=h:
+        return 1+problema_2(root.left,h,i+1)+problema_2(root.right,h,i+1)
+    else:
+        return problema_2(root.left,h,i+1)+problema_2(root.right,h,i+1)
+```
+
+## Esercizio 3
+
+Input:
+- albero binario T di n nodi
+- ogni nodo v ha un valore $val(v)\gt0$
+
+Output: numero di nodi che soddisfano $\overbrace{\text{somma dei valori degli antenati del nodo}=\text{somma dei valori dei discendenti del nodo}}^{=\Delta}$
+
+Esempio
+
+![[appunti asd/mod i/esercizi/imges/Pasted image 20221121171612.png|center|500]]
+
+Soluzione python
+
+```python
+def problema_3(root,SA):
+    if root == None:
+        return (0,0)
+    SA = SA+root.val
+    (SD_s,k_s) = problema_3(root.left,SA)
+    (SD_d,k_d) = problema_3(root.right,SA)
+  
+    SD = SD_s+SD_d+root.val
+    if SD == SA:
+        return (SD,1+k_s+k_d)
+    else:
+        return (SD,k_s+k_d)
+```

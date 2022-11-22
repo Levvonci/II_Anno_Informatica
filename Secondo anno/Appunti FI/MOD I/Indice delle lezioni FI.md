@@ -10,8 +10,9 @@
 - [[Lezione 8 - RE,RG e ASF]]
 - [[Lezione 9 - Sempre su RE,RG e ASF]]
 - [[Lezione 10 - Minimizzazione di ASF]]
+- [[Lezione 11 - Pumping Lemma,Linguaggi CF]]
+- [[Lezione 12 - Sempre su Linguaggi CF]]
 - 
-
 
 
 
@@ -30,7 +31,10 @@ graph LR
 	H[Lezione 7]
 	I[Lezione 8]
 	J[Lezione 9]
-
+	K[Lezione 10]
+	L[Lezione 11]
+	M[Lezione 12]
+	
 	linkStyle default stroke-width:2px,fill:none,stroke:grey,color:red
 	
 	style A fill:black, color:#fff
@@ -43,7 +47,12 @@ graph LR
 	style H fill:black, color:#fff
 	style I fill:black, color:#fff
 	style J fill:black, color:#fff
-	A-->B & C & D & E & F & G & H & I & J
+	style K fill:black, color:#fff
+	style L fill:black, color:#fff
+	style M fill:black, color:#fff
+	A-->B & C & D & E & F & G & H & I & J & K & L & M
 	D-->E
 	E-->D
+	M-->L
+	L-->M
 ```

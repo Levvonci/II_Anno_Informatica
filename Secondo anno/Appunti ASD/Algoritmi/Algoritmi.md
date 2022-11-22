@@ -14,6 +14,9 @@
 	- [[Algoritmi#BucketSort|BucketSort]]
 	- [[Algoritmi#RadixSort|RadixSort]]
 
+- Algoritmi di visita di un albero
+	- [[Algoritmi#Algoritmo DFS|Algoritmo DFS]]
+	- [[Algoritmi#Algoritmo BFS|Algoritmo BFS]]
 Per una spiegazione più dettagliata di qeusti algoritmi si rimanda a questo link [Algoritmi](http://people.disim.univaq.it/guido.proietti/lezioni_algo2021.html)
 
 
@@ -24,14 +27,7 @@ Per una spiegazione più dettagliata di qeusti algoritmi si rimanda a questo lin
 ### Pseudo-codice
 Pseudo-codice:
 
->BubbleSort(A):
->1. scambio = true
->2. while scambio do
->3. 	scambio = false
->4. 	for i =0 to n-2 do
->5. 		if $A[i]\gt A[i+1]$ then
->6. 		swap($A[i],A[i+1]$)
->7. 		scambio=true
+![[appunti asd/algoritmi/img/Pasted image 20221118115350.png|center|600]]
 
 n è la lunghezza dell'array
 
@@ -206,10 +202,6 @@ Tempo lineare se $k=O(n^c)$, c costante
 ## BubbleSort
 ```python
 def bubble_sort( a ):
-    '''
-    pre: a è una lista di numeri
-    ordina la lista dall'elemento più piccolo a quello più grande
-    '''
     n = len(a)
     ordinata = False
     num_scansioni = 1
@@ -218,9 +210,7 @@ def bubble_sort( a ):
         num_scansioni += 1
         ordinata = True
         for i in range(n-1):
-            # confrontiamo l'elemento in posizione i e i+1
             if a[i] > a[i+1]:
-                # scambio gli elementi, non posso dire che la lista è ordinata
                 a[i], a[i+1] = a[i+1], a[i]
                 ordinata = False
 b = [9,8,7,6,5,4,3,2,1]
@@ -368,4 +358,114 @@ a = [1,10,4,3,3,5,20]
 print(HeapSort(a))
 ```
 
+
+
+
+# Algoritmi di visita su un albero
+
+## Algoritmo DFS
+
+### Pseudo-codice
+
+![[appunti asd/mod i/immagini/Pasted image 20221117102755.png|center|500]]
+
+### Complessità
+
+![[appunti asd/mod i/immagini/Pasted image 20221117103228.png|center|700]]
+
+Quindi $T(n)=O(n)$
+
+### Codice in python
+
+
+```python
+class TreeNode:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+  
+def DFS(root):
+    S = []
+    S.append(root)
+    while len(S) > 0:
+        u = S.pop()
+        if u != None:
+            print(u.val)
+            S.append(u.right)
+            S.append(u.left)
+
+root = TreeNode("A")
+l1 = TreeNode("L")
+l2 = TreeNode("E")
+r1 = TreeNode("R")
+r2 = TreeNode("B")
+r3 = TreeNode("O")
+  
+root.left = l1
+root.right = r2
+l1.left = l2
+l1.right = r1
+r2.right = r3
+DFS(root)
+```
+
+## Algoritmo BFS
+
+### Pseudo-codice
+
+![[appunti asd/mod i/immagini/Pasted image 20221117104625.png|center|600]]
+
+### Complessità temporale
+
+![[appunti asd/mod i/immagini/Pasted image 20221117104916.png|center|700]]
+
+Quindi $T(n)=O(n)$
+
+### Codice in python
+
+```python
+class TreeNode:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+class Queue:
+    def __init__(self):
+        self.items = []
+    def isEmpty(self):
+        return self.items == []
+    def enqueue(self, item):
+        self.items.insert(0,item)
+    def dequeue(self):
+        return self.items.pop()  
+    def size(self):
+        return len(self.items)
+
+def BFS(root):
+    c = Queue()
+    c.enqueue(root)
+    while not c.isEmpty():
+        u = c.dequeue()
+        if u != None:
+            print(u.val)#visito il nodo u
+            c.enqueue(u.right)
+            c.enqueue(u.left)
+
+root = TreeNode("A")
+l1 = TreeNode("L")
+r1 = TreeNode("B")
+l2 = TreeNode("E")
+r2 = TreeNode("R")
+r3 = TreeNode("O")
+  
+root.left = l1
+l1.right = r1
+r1.left = l2
+l2.right = r2
+r2.right = r3
+
+BFS(root)
+```
 
