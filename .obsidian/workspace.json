@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c60a4101ff42dc07",
@@ -167,7 +166,7 @@
     "direction": "horizontal",
     "width": 200
   },
-  "active": "a4f62cc88e0bf070",
+  "active": "265a8a287f2cb2fa",
   "lastOpenFiles": [
     "Secondo anno/Appunti FI/MOD I/Lezione 9 - Sempre su RE,RG e ASF.md",
     "Secondo anno/Appunti FI/MOD I/Lezione 10 - Minimizzazione di ASF.md",
