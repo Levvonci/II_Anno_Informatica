@@ -11,12 +11,8 @@
             "id": "a4f62cc88e0bf070",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Secondo_Anno/README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secondo_Anno/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secondo_Anno/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Secondo_Anno/README.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,8 +160,8 @@
   },
   "active": "265a8a287f2cb2fa",
   "lastOpenFiles": [
-    "Secondo_Anno/Appunti ASD/Algoritmo_Es3.pdf",
     "Secondo_Anno/README.md",
+    "Secondo_Anno/Appunti ASD/Algoritmo_Es3.pdf",
     "Secondo anno/Appunti FI/MOD I/Lezione 9 - Sempre su RE,RG e ASF.md",
     "Secondo anno/Appunti FI/MOD I/Lezione 10 - Minimizzazione di ASF.md",
     "Secondo anno/Appunti FI/MOD I/Lezione 11 - Pumping Lemma,Linguaggi CF.md",
