@@ -11,8 +11,10 @@
             "id": "a4f62cc88e0bf070",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "appunti_II_anno/Appunti ASD/problem_set_1.pdf"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "appunti_II_anno/Appunti ASD/problem_set_1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "appunti_II_anno/Appunti ASD/problem_set_1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "appunti_II_anno/Appunti ASD/problem_set_1.pdf"
+              }
             }
           },
           {
@@ -158,8 +164,10 @@
     "direction": "horizontal",
     "width": 412.5
   },
-  "active": "265a8a287f2cb2fa",
+  "active": "a4f62cc88e0bf070",
   "lastOpenFiles": [
+    "appunti_II_anno/Appunti ASD/Algoritmo_Es3.pdf",
+    "appunti_II_anno/Appunti ASD/MOD I/Lezione 9 - Capitolo 3.md",
     "Secondo_Anno/README.md",
     "Secondo_Anno/Appunti ASD/Algoritmo_Es3.pdf",
     "Secondo anno/Appunti FI/MOD I/Lezione 9 - Sempre su RE,RG e ASF.md",
@@ -167,8 +175,6 @@
     "Secondo anno/Appunti FI/MOD I/Lezione 11 - Pumping Lemma,Linguaggi CF.md",
     "Secondo anno/Appunti FI/MOD I/Lezione 12 - Sempre su Linguaggi CF.md",
     "Secondo anno/Appunti FI/MOD I/Lezioni Fondamenti.md",
-    "Secondo anno/Appunti FI/MOD I/Esercizi/Indice degli esercizi FI.md",
-    "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizio RegEx.md",
-    "Secondo anno/Appunti FI/MOD I/Esercizi/Esercizi_ASF_2_nov_2022.pdf"
+    "Secondo anno/Appunti FI/MOD I/Esercizi/Indice degli esercizi FI.md"
   ]
 }
