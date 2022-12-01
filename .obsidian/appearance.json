@@ -4,5 +4,8 @@
   "textFontFamily": "Arial",
   "baseFontSize": 16,
   "accentColor": "",
-  "cssTheme": "Obuntu"
+  "cssTheme": "Obuntu",
+  "enabledCssSnippets": [
+    "Obsidian"
+  ]
 }

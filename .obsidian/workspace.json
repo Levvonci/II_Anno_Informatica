@@ -11,9 +11,11 @@
             "id": "a4f62cc88e0bf070",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "appunti_II_anno/Appunti ASD/problem_set_1.pdf"
+                "file": "appunti_II_anno/Appunti ASD/Problema1.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c60a4101ff42dc07",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "appunti_II_anno/Appunti ASD/problem_set_1.pdf",
+                "file": "appunti_II_anno/Appunti ASD/Problema1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "appunti_II_anno/Appunti ASD/problem_set_1.pdf",
+                "file": "appunti_II_anno/Appunti ASD/Problema1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "appunti_II_anno/Appunti ASD/problem_set_1.pdf"
+                "file": "appunti_II_anno/Appunti ASD/Problema1.md"
               }
             }
           },
@@ -162,10 +165,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.5
+    "width": 200,
+    "collapsed": true
   },
   "active": "a4f62cc88e0bf070",
   "lastOpenFiles": [
+    "appunti_II_anno/Appunti ASD/problem_set_1.pdf",
     "appunti_II_anno/Appunti ASD/Algoritmo_Es3.pdf",
     "appunti_II_anno/Appunti ASD/MOD I/Lezione 9 - Capitolo 3.md",
     "Secondo_Anno/README.md",
@@ -174,7 +179,6 @@
     "Secondo anno/Appunti FI/MOD I/Lezione 10 - Minimizzazione di ASF.md",
     "Secondo anno/Appunti FI/MOD I/Lezione 11 - Pumping Lemma,Linguaggi CF.md",
     "Secondo anno/Appunti FI/MOD I/Lezione 12 - Sempre su Linguaggi CF.md",
-    "Secondo anno/Appunti FI/MOD I/Lezioni Fondamenti.md",
-    "Secondo anno/Appunti FI/MOD I/Esercizi/Indice degli esercizi FI.md"
+    "Secondo anno/Appunti FI/MOD I/Lezioni Fondamenti.md"
   ]
 }
