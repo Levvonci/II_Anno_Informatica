@@ -11,8 +11,12 @@
             "id": "0a211b2e33a4b781",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "appunti_II_anno/Appunti FI/MOD I/Lezione 12 - Sempre su Linguaggi CF.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "appunti_II_anno/Appunti FI/MOD I/Lezione 12 - Sempre su Linguaggi CF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "appunti_II_anno/Appunti FI/MOD I/Lezione 12 - Sempre su Linguaggi CF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "appunti_II_anno/Appunti FI/MOD I/Lezione 12 - Sempre su Linguaggi CF.md"
+              }
             }
           },
           {
@@ -161,15 +169,15 @@
   },
   "active": "0a211b2e33a4b781",
   "lastOpenFiles": [
-    "appunti_II_anno/Appunti ASD/Problema1.md",
+    "appunti_II_anno/Appunti ASD/Algoritmi/Algoritmi.md",
     "appunti_II_anno/Appunti ASD/problem_set_1.pdf",
     "appunti_II_anno/Appunti ASD/Algoritmo_Es3.pdf",
+    "appunti_II_anno/Appunti ASD/Problema1.md",
     "appunti_II_anno/Appunti ASD/MOD I/Lezione 9 - Capitolo 3.md",
     "Secondo_Anno/README.md",
     "Secondo_Anno/Appunti ASD/Algoritmo_Es3.pdf",
     "Secondo anno/Appunti FI/MOD I/Lezione 9 - Sempre su RE,RG e ASF.md",
     "Secondo anno/Appunti FI/MOD I/Lezione 10 - Minimizzazione di ASF.md",
-    "Secondo anno/Appunti FI/MOD I/Lezione 11 - Pumping Lemma,Linguaggi CF.md",
-    "Secondo anno/Appunti FI/MOD I/Lezione 12 - Sempre su Linguaggi CF.md"
+    "Secondo anno/Appunti FI/MOD I/Lezione 11 - Pumping Lemma,Linguaggi CF.md"
   ]
 }

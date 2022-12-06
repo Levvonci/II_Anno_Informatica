@@ -364,3 +364,93 @@ def problema_3(root,SA):
     else:
         return (SD,k_s+k_d)
 ```
+
+# Esercitazione 4
+
+## Esercizio 1
+
+**Input**: vettore ordinato $A[1:n]$ di n bit, ovvero $A[i]\in\lbrace 0,1\rbrace$
+**Output**: l'indice k dell'ultimo 0
+
+![[appunti asd/mod i/esercizi/imges/Pasted image 20221201092633.png|center|600]]
+
+**Goal1**: $O(log(n))$
+**Idea1** (di base): uso l'approccio della ricerca binaria
+
+![[appunti asd/mod i/esercizi/imges/Pasted image 20221201092412.png|center|600]]
+
+Complessità? $O(log(n))$
+
+Goal2: $O(log(k))$
+
+![[appunti asd/mod i/esercizi/imges/Pasted image 20221201092633.png|center|600]]
+
+Soluzione? 
+Scorro l'array in base alle potenze di 2, mi trovo in un caso in cui avrò che l'elemento in posizione $2^i=0$ e $2^{i+1}=1$
+A quel punto mi trovo l'indice k in tempo $O(log(k))$ utilizzando la ricerca binaria classica
+
+Infatti,
+**Idea:** trovare in $O(log(k))$ due indici $i^\star,j^\star$ tali che:
+- $A[i^\star]=0,A[j^\star]=1$
+- $|j^\star-i^\star|=O(k)$ su cui fare la ricerca binaria in tempo log(k)
+
+**Analisi**:
+Ho guardato $i+2=O(i)$ elementi:
+- $2^i\leq k\implies i\leq log_2k$
+- $j^\star-i^\star=2^{i+1}-2^i=2^i\leq k\implies A[i^\star:j^\star]$ ha $j^\star-i^\star+1$ elementi e quindi $O(k)$ elementi
+
+## Esercizio 2
+
+**Input**: vettore $A[1:n]$ di n bit, ovvero $A[i]\in\lbrace 0,1\rbrace$
+**Output**: l'indice k tale che num di zeri in $A[1:k]$ = num di uno in $A[k+1:n]$
+
+![[appunti asd/mod i/esercizi/imges/Pasted image 20221201095802.png]]
+
+Goal: $O(n)$
+
+Soluzione nostra:
+Tempo $O(nlog(n))$
+
+```python
+def prob2(a,i,j):
+    n=len(a)
+    k = (i+j)//2
+    k_i,k_j=k,k+1
+    count_0,count_1=0,0
+    while k_i>0 and k_j<n-1:
+        if a[k_i] == 0:
+            count_0+=1
+            k_i-=1
+        else:
+            k_i-=1
+        if a[k_j]==1:
+            count_1+=1
+            k_j+=1
+        else:
+            k_j-=1
+    if count_1 == count_1:
+        return k
+    if count_1 > count_0:
+        k=binsearch(a,(3j/2))
+        return prob2(a,i,k)
+    else:
+        k=binsearch(a,(j/2))
+        return prob2(a,i,k)
+```
+
+Soluzione prof:
+
+[Soluzione prof](http://www.mat.uniroma2.it/~guala/esercitazione_4_2021.pdf) da pagina 9 a 10
+
+Soluzione perfetta (anche se non sembra):
+```python
+def prob2(a):
+    n=len(a)
+    count=0
+    for i in range(n):
+        count+=a[i]
+    return count
+```
+
+Complessità? $O(n)$
+

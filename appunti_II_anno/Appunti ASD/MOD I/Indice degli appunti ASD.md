@@ -8,7 +8,10 @@
 - [[Lezione 6 - HeapSort]]
 - [[Lezione 7 - Capitolo 4]]
 - [[Lezione 8 - Capitolo 4]]
-- [[Lezione 9 - Capitolo 3]]
+- [[Lezione 9 - Capitolo 5]]
+- [[Lezione 10 - Capitolo 6]]
+- [[Lezione 11 - Capitolo 6]]
+- [[Lezione 12 - Capitolo 8]]
 - 
 
 
@@ -26,6 +29,7 @@ graph LR
 	H[Lezione 7]
 	I[Lezione 8]
 	J[Lezione 9]
+	K[Lezione 10]
 	
 	linkStyle default stroke-width:2px,fill:none,stroke:grey,color:red
 
@@ -39,7 +43,8 @@ graph LR
 	style H fill:black, color:#fff
 	style I fill:black, color:#fff
 	style J fill:black, color:#fff
-	A-->B & C & D & E & F & G & H & I & J
+	style K fill:black, color:#fff
+	A-->B & C & D & E & F & G & H & I & J & K
 	H-->I
 	I-->H
 	D-->E
