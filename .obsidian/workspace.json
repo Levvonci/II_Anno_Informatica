@@ -11,10 +11,8 @@
             "id": "0a211b2e33a4b781",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "appunti-II-anno/Appunti ASD/Algoritmo_Es3.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "appunti-II-anno/Appunti ASD/Algoritmo_Es3.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "appunti-II-anno/Appunti ASD/Algoritmo_Es3.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "appunti-II-anno/Appunti ASD/Algoritmo_Es3.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -164,7 +158,7 @@
     "direction": "horizontal",
     "width": 735.5
   },
-  "active": "0a211b2e33a4b781",
+  "active": "28b0308200583281",
   "lastOpenFiles": [
     "appunti_II_anno/Appunti ASD/Algoritmi/Algoritmi.md",
     "appunti_II_anno/Appunti ASD/problem_set_1.pdf",
