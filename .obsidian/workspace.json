@@ -11,11 +11,9 @@
             "id": "0a211b2e33a4b781",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "appunti_II_anno/Appunti FI/MOD I/Lezione 12 - Sempre su Linguaggi CF.md",
-                "mode": "preview",
-                "source": false
+                "file": "appunti-II-anno/Appunti ASD/Algoritmo_Es3.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "appunti_II_anno/Appunti FI/MOD I/Lezione 12 - Sempre su Linguaggi CF.md",
+                "file": "appunti-II-anno/Appunti ASD/Algoritmo_Es3.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "appunti_II_anno/Appunti FI/MOD I/Lezione 12 - Sempre su Linguaggi CF.md",
+                "file": "appunti-II-anno/Appunti ASD/Algoritmo_Es3.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "appunti_II_anno/Appunti FI/MOD I/Lezione 12 - Sempre su Linguaggi CF.md"
+                "file": "appunti-II-anno/Appunti ASD/Algoritmo_Es3.pdf"
               }
             }
           },
@@ -164,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 735.5
   },
   "active": "0a211b2e33a4b781",
   "lastOpenFiles": [
