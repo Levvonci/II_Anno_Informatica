@@ -11,8 +11,12 @@
             "id": "0a211b2e33a4b781",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Appunti ASD/MOD I/Lezione 11 - Capitolo 6.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c60a4101ff42dc07",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Appunti ASD/MOD I/Lezione 11 - Capitolo 6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Appunti ASD/MOD I/Lezione 11 - Capitolo 6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Appunti ASD/MOD I/Lezione 11 - Capitolo 6.md"
+              }
             }
           },
           {
@@ -156,19 +165,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 476.5
+    "width": 200,
+    "collapsed": true
   },
-  "active": "265a8a287f2cb2fa",
+  "active": "0a211b2e33a4b781",
   "lastOpenFiles": [
-    "appunti-II-anno/Appunti ASD/MOD I/Lezione 1 - Capitolo 1.md",
-    "appunti-II-anno/Appunti ASD/Algoritmo_Es3.pdf",
-    "appunti_II_anno/Appunti ASD/Algoritmi/Algoritmi.md",
-    "appunti_II_anno/Appunti ASD/problem_set_1.pdf",
-    "appunti_II_anno/Appunti ASD/Algoritmo_Es3.pdf",
-    "appunti_II_anno/Appunti ASD/Problema1.md",
-    "appunti_II_anno/Appunti ASD/MOD I/Lezione 9 - Capitolo 3.md",
-    "Secondo_Anno/README.md",
-    "Secondo_Anno/Appunti ASD/Algoritmo_Es3.pdf",
-    "Secondo anno/Appunti FI/MOD I/Lezione 9 - Sempre su RE,RG e ASF.md"
+    "Appunti ASD/MOD I/Lezione 10 - Capitolo 6.md",
+    "Appunti ASD/MOD I/Lezione 8 - Capitolo 4.md",
+    "Appunti ASD/MOD I/Lezione 6 - HeapSort.md",
+    "Appunti ASD/MOD I/Lezione 5 - Capitolo 4.md",
+    "Appunti ASD/MOD I/Lezione 4 - Capitolo 2.md",
+    "Appunti ASD/MOD I/Lezione 3 - Capitolo 2.md",
+    "Appunti ASD/MOD I/Lezione 2 - Capitolo 2.md",
+    "Appunti ASD/MOD I/Lezione 1 - Capitolo 1.md",
+    "Appunti ASD/MOD I/Indice degli appunti ASD.md",
+    "README.md"
   ]
 }
