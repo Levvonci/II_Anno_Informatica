@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f805d2f6cee2fadb",
+        "id": "b003440e5adf7448",
         "type": "tabs",
         "children": [
           {
-            "id": "0a211b2e33a4b781",
+            "id": "6e21d2a899c37d0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c60a4101ff42dc07",
@@ -168,17 +167,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "0a211b2e33a4b781",
+  "active": "6e21d2a899c37d0c",
   "lastOpenFiles": [
     "Appunti ASD/MOD I/Lezione 10 - Capitolo 6.md",
+    "Appunti ASD/MOD I/Lezione 11 - Capitolo 6.md",
+    "Appunti ASD/MOD I/Lezione 12 - Capitolo 8.md",
+    "Appunti ASD/Algoritmo_Es3.pdf",
+    "2022-12-13.md",
     "Appunti ASD/MOD I/Lezione 8 - Capitolo 4.md",
     "Appunti ASD/MOD I/Lezione 6 - HeapSort.md",
     "Appunti ASD/MOD I/Lezione 5 - Capitolo 4.md",
     "Appunti ASD/MOD I/Lezione 4 - Capitolo 2.md",
-    "Appunti ASD/MOD I/Lezione 3 - Capitolo 2.md",
-    "Appunti ASD/MOD I/Lezione 2 - Capitolo 2.md",
-    "Appunti ASD/MOD I/Lezione 1 - Capitolo 1.md",
-    "Appunti ASD/MOD I/Indice degli appunti ASD.md",
-    "README.md"
+    "Appunti ASD/MOD I/Lezione 3 - Capitolo 2.md"
   ]
 }
